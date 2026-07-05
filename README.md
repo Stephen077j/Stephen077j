@@ -3,6 +3,10 @@
 Full-Stack Developer | AI Enthusiast  
 
 ---
+<p align="center">
+  <img src="./banner-git.png" alt="JOEL Stephen Banner" width="100%">
+</p>
+---
 
 ## Profile
 
@@ -22,14 +26,6 @@ I am continuously improving my skills in system design, backend architecture, an
 - System Design & Scalable Applications  
 
 ---
-
-## Technical Skills
-
-- Frontend: HTML, CSS, JavaScript, TypeScript, React (learning)  
-- Backend: Node.js, Python, REST APIs  
-- Mobile: Android (Kotlin), React Native (basic), 
-- AI/ML: Python , data processing, model understanding  
-- Tools: Git, GitHub, VS Code, Docker (learning)
 
 ---
 
