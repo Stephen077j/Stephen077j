@@ -8,21 +8,24 @@ Master's in **Mathematics** + **Artificial Intelligence** (ENI Fianarantsoa, Mad
 I architect complete systems end-to-end: **FastAPI/LLM** backends, **React & Next.js** frontends,
 and **data pipelines** — turning data and AI into products that solve real problems.
 
+> Most project repositories are **private to protect the source code**. Descriptions and demos are
+> shared below and on my portfolio — **code and live walkthroughs available on request.**
+
 ---
 
 ## 🚀 Featured work
 
 | Project | What it is | Stack |
 |---|---|---|
-| 🎓 **University Reference** 🔒 | Online learning (LMS) + campus ERP platform | TanStack · Express · Prisma · PostgreSQL · Socket.io |
-| 📊 **DataPulse** 🔒 | End-to-end streaming data & ML platform | Kafka · Spark · Flink · Airflow · dbt |
-| ⚖️ **LegalMind** 🔒 | Multi-agent RAG assistant over Malagasy law | FastAPI · LangChain · Claude · Qdrant |
-| 🛍️ **ListingForge AI** 🔒 | AI SaaS: SEO listings → Shopify / Etsy / Amazon | FastAPI · Claude · React · Celery |
-| 🔨 **CodeForge** 🔒 | Code-generation LLM trained from scratch | PyTorch · Transformers |
-| 🛎️ [**ARENAH**](https://github.com/Stephen077j/site-arena_multiplatform) | Self-service SaaS bundling 10 service modules | React · Supabase · TypeScript |
-| 🤖 [**AI Creator Platform**](https://github.com/Stephen077j/platform-forgeux) | Create & share AI agents and prompts | FastAPI · Next.js · PWA |
+| 🎓 **University Reference** | Online learning (LMS) + campus ERP platform | TanStack · Express · Prisma · PostgreSQL · Socket.io |
+| 📊 **DataPulse** | End-to-end streaming data & ML platform | Kafka · Spark · Flink · Airflow · dbt |
+| ⚖️ **LegalMind** | Multi-agent RAG assistant over Malagasy law | FastAPI · LangChain · Claude · Qdrant |
+| 🛍️ **ListingForge AI** | AI SaaS: SEO listings → Shopify / Etsy / Amazon | FastAPI · Claude · React · Celery |
+| 🔨 **CodeForge** | Code-generation LLM trained from scratch | PyTorch · Transformers |
+| 🛎️ **ARENAH** | Self-service SaaS bundling 10 service modules | React · Supabase · TypeScript |
+| 🤖 **AI Creator Platform** | Create & share AI agents and prompts | FastAPI · Next.js · PWA |
 
-🔒 = private repository — available on request.
+*🔒 Private repositories — I'm happy to walk through the code and give access on request.*
 
 ---
 
