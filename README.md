@@ -1,47 +1,50 @@
-# JOEL Stephen
+<img src="./banner-git.png" alt="Joel Stephen" width="100%" />
 
-Full-Stack Developer | AI Enthusiast  
+# Hi, I'm Joel Stephen 👋
 
----
-<p align="center">
-  <img src="./banner-git.png" alt="JOEL Stephen Banner" width="100%">
-</p>
----
+### AI & Full-Stack Engineer — I build RAG systems, AI SaaS products & developer tools
 
-## Profile
-
-I am a software developer focused on full-stack development and artificial intelligence.  
-I build scalable web and mobile applications and explore AI-driven solutions to solve real-world problems.
-
-I am continuously improving my skills in system design, backend architecture, and applied machine learning.
+Master's in **Mathematics** + **Artificial Intelligence** (ENI Fianarantsoa, Madagascar 🇲🇬).
+I architect complete systems end-to-end: **FastAPI/LLM** backends, **React & Next.js** frontends,
+and **data pipelines** — turning data and AI into products that solve real problems.
 
 ---
 
-## Focus Areas
+## 🚀 Featured work
 
-- Full-Stack Web Development  
-- Backend Architecture & APIs  
-- Mobile Development  
-- Artificial Intelligence (AI) & Machine Learning fundamentals  
-- System Design & Scalable Applications  
+| Project | What it is | Stack |
+|---|---|---|
+| 🎓 **University Reference** 🔒 | Online learning (LMS) + campus ERP platform | TanStack · Express · Prisma · PostgreSQL · Socket.io |
+| 📊 **DataPulse** 🔒 | End-to-end streaming data & ML platform | Kafka · Spark · Flink · Airflow · dbt |
+| ⚖️ **LegalMind** 🔒 | Multi-agent RAG assistant over Malagasy law | FastAPI · LangChain · Claude · Qdrant |
+| 🛍️ **ListingForge AI** 🔒 | AI SaaS: SEO listings → Shopify / Etsy / Amazon | FastAPI · Claude · React · Celery |
+| 🔨 **CodeForge** 🔒 | Code-generation LLM trained from scratch | PyTorch · Transformers |
+| 🛎️ [**ARENAH**](https://github.com/Stephen077j/site-arena_multiplatform) | Self-service SaaS bundling 10 service modules | React · Supabase · TypeScript |
+| 🤖 [**AI Creator Platform**](https://github.com/Stephen077j/platform-forgeux) | Create & share AI agents and prompts | FastAPI · Next.js · PWA |
 
----
-
----
-
-## Projects
-
-I work on practical projects involving web applications, mobile systems, automation tools, and backend services.
+🔒 = private repository — available on request.
 
 ---
 
-## Objective
+## 🛠️ Tech
 
-To become a professional Full-Stack and AI engineer capable of designing and building end-to-end intelligent systems.
+**Languages:** Python · TypeScript / JavaScript · Node.js · SQL
+**AI / ML:** RAG · LLMs (Claude) · LangChain · NLP (CamemBERT) · PyTorch
+**Frontend:** React · Next.js · React Native (Expo) · TailwindCSS
+**Backend:** FastAPI · Express · REST · WebSocket · JWT
+**Data:** PostgreSQL · MongoDB · Supabase · Qdrant · Redis · Kafka · Spark · Airflow · dbt
+**DevOps:** Docker · Kubernetes · CI/CD (GitHub Actions) · Celery · Prometheus
 
 ---
 
-## Contact
+## 📈 GitHub
 
-Email: joel.stephen2017@gmail.com  
-GitHub: Stephen077j
+![Joel's GitHub stats](https://github-readme-stats.vercel.app/api?username=Stephen077j&show_icons=true&theme=tokyonight&hide_border=true)
+![Top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Stephen077j&layout=compact&theme=tokyonight&hide_border=true)
+
+---
+
+## 📫 Reach me
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/joel-stephen-b8a6a9251/)
+[![Email](https://img.shields.io/badge/Email-EA4335?logo=gmail&logoColor=white)](mailto:joel.stephen2017@gmail.com)
