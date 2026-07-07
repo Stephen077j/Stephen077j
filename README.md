@@ -13,23 +13,23 @@ and **data pipelines** — turning data and AI into products that solve real pro
 
 ---
 
-## 🚀 Featured work
+##  Featured work
 
 | Project | What it is | Stack |
 |---|---|---|
-| 🎓 **University Reference** | Online learning (LMS) + campus ERP platform | TanStack · Express · Prisma · PostgreSQL · Socket.io |
-| 📊 **DataPulse** | End-to-end streaming data & ML platform | Kafka · Spark · Flink · Airflow · dbt |
-| ⚖️ **LegalMind** | Multi-agent RAG assistant over Malagasy law | FastAPI · LangChain · Claude · Qdrant |
-| 🛍️ **ListingForge AI** | AI SaaS: SEO listings → Shopify / Etsy / Amazon | FastAPI · Claude · React · Celery |
-| 🔨 **CodeForge** | Code-generation LLM trained from scratch | PyTorch · Transformers |
-| 🛎️ **ARENAH** | Self-service SaaS bundling 10 service modules | React · Supabase · TypeScript |
-| 🤖 **AI Creator Platform** | Create & share AI agents and prompts | FastAPI · Next.js · PWA |
+|  **University Reference** | Online learning (LMS) + campus ERP platform | TanStack · Express · Prisma · PostgreSQL · Socket.io |
+|  **DataPulse** | End-to-end streaming data & ML platform | Kafka · Spark · Flink · Airflow · dbt |
+|  **LegalMind** | Multi-agent RAG assistant over Malagasy law | FastAPI · LangChain · Claude · Qdrant |
+|  **ListingForge AI** | AI SaaS: SEO listings → Shopify / Etsy / Amazon | FastAPI · Claude · React · Celery |
+|  **CodeForge** | Code-generation LLM trained from scratch | PyTorch · Transformers |
+|  **ARENAH** | Self-service SaaS bundling 10 service modules | React · Supabase · TypeScript |
+|  **AI Creator Platform** | Create & share AI agents and prompts | FastAPI · Next.js · PWA |
 
-*🔒 Private repositories — I'm happy to walk through the code and give access on request.*
+*Private repositories — I'm happy to walk through the code and give access on request.*
 
 ---
 
-## 🛠️ Tech
+##  Tech
 
 **Languages:** Python · TypeScript / JavaScript · Node.js · SQL
 **AI / ML:** RAG · LLMs (Claude) · LangChain · NLP (CamemBERT) · PyTorch
@@ -40,14 +40,14 @@ and **data pipelines** — turning data and AI into products that solve real pro
 
 ---
 
-## 📈 GitHub
+## GitHub
 
 ![Joel's GitHub stats](https://github-readme-stats.vercel.app/api?username=Stephen077j&show_icons=true&theme=tokyonight&hide_border=true)
 ![Top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Stephen077j&layout=compact&theme=tokyonight&hide_border=true)
 
 ---
 
-## 📫 Reach me
+##  Reach me
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/joel-stephen-b8a6a9251/)
 [![Email](https://img.shields.io/badge/Email-EA4335?logo=gmail&logoColor=white)](mailto:joel.stephen2017@gmail.com)
