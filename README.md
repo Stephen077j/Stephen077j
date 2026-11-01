@@ -36,6 +36,23 @@ and **data pipelines** — turning data and AI into products that solve real pro
 ---
 
 
+## What I build
+
+I design and develop practical applications for organizations — from requirements and interfaces to APIs, data models and testing.
+
+| Product area | Examples of my work | Focus |
+|:--|:--|:--|
+| **Business software** | ARENAH and point-of-sale systems | Sales, operations and multi-service workflows |
+| **Education platforms** | EDUVERSE | Administration, learning and student services |
+| **Productivity & mobile** | AVANA | Personal organization and mobile workflows |
+| **AI & developer tools** | NLP, RAG and automation experiments | Applied AI and engineering tooling |
+
+**Looking for a technical partner?** I can discuss a scope, prepare a demonstration using non-sensitive data, and explain the implementation choices. Most commercial source repositories are private.
+
+[Explore my public repositories](https://github.com/Stephen077j?tab=repositories&q=&type=public) · [View my contribution activity](https://github.com/Stephen077j?tab=overview)
+
+---
+
 ## ATSIC — Solutions pour vos besoins / Solutions for your business
 
 ### Français
@@ -63,6 +80,9 @@ I develop web and mobile tools and reusable business components for inventory, q
 ---
 
 ## Featured work
+
+> Selected work spans commercial applications, university software and AI experiments. Private source code is not publicly downloadable; request a demonstration or technical walkthrough when available.
+
 
 
 | Project | What it is | Stack |
