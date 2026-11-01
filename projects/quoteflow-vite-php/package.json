@@ -1,0 +1,1 @@
+{"name":"quoteflow-vite-php","private":true,"version":"1.0.0","type":"module","scripts":{"dev":"vite --host 127.0.0.1","build":"vite build","preview":"vite preview","test":"node --test tests/*.test.mjs"},"devDependencies":{"vite":"^6.1.0"}}
