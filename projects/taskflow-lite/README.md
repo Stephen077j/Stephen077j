@@ -9,6 +9,7 @@ Open `index.html` in a modern desktop or mobile browser, or serve this folder fr
 ## Features
 
 - Create, complete, reopen and delete tasks.
+- Export tasks as a downloadable JSON backup (no network upload).
 - Filter all, active and completed tasks.
 - Track completed/total counts.
 - Responsive layout with keyboard-visible focus.
@@ -26,6 +27,7 @@ This is a local demo, **not** an account-backed task manager. Clearing site data
 3. Reopen it, delete the other, and refresh to verify persistence when storage is enabled.
 4. Use only a keyboard to navigate fields and buttons.
 5. Add task text containing HTML tags; it must appear as text, not execute.
+6. Select **Export JSON backup**, inspect the downloaded file, and confirm it contains only task IDs, titles, completion states and export metadata.
 
 ## Follow-up
 
