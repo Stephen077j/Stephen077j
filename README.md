@@ -87,6 +87,7 @@ Ces dépôts permettent de consulter du code réel. Les produits commerciaux res
 
 | Project / Projet | What you can explore / À découvrir |
 |:--|:--|
+| [RepoScope Explorer](./projects/reposcope/) | GitHub REST API browser: search and sort public repositories / Explorateur de dépôts publics par API GitHub |
 | [TaskFlow Lite](./projects/taskflow-lite/) | Offline task management with browser storage and JSON export / Gestion locale des tâches |
 | [CalcProSte](https://github.com/Stephen077j/dominomulti) | Expo / React Native mathematics toolkit / Outils mathématiques mobiles |
 | [Fruit ML & MLOps](https://github.com/Stephen077j/ML) | ML experiments, evaluation discussion and monitoring documentation / Expériences ML |
