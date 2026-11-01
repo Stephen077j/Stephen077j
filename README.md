@@ -1,6 +1,23 @@
 <img src="./banner-git.png" alt="Joel Stephen" width="100%" />
 
 
+
+<div align="center">
+
+### Building useful software, from Madagascar to the world 🌍
+
+**Full-Stack Development · AI Engineering · Business Applications**
+
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit%20Website-146CFF?style=for-the-badge&logo=vercel&logoColor=white)](https://stephen077-go.vercel.app/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/joel-stephen-b8a6a9251/)
+[![Email](https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:joel.stephen2017@gmail.com)
+
+[**About**](#hi-im-joel-stephen-) · [**Solutions**](#atsic--solutions-pour-vos-besoins--solutions-for-your-business) · [**Featured work**](#featured-work) · [**Tech**](#tech) · [**Contact**](#reach-me)
+
+</div>
+
+---
+
 # Hi, I'm Joel Stephen 👋
 
 
@@ -45,7 +62,7 @@ I develop web and mobile tools and reusable business components for inventory, q
 
 ---
 
-##  Featured work
+## Featured work
 
 
 | Project | What it is | Stack |
@@ -65,8 +82,20 @@ I develop web and mobile tools and reusable business components for inventory, q
 ---
 
 
-##  Tech
+## Tech
 
+
+<div align="center">
+
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![React](https://img.shields.io/badge/React-149ECA?style=flat-square&logo=react&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-5FA04E?style=flat-square&logo=nodedotjs&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+
+</div>
 
 **Languages:** Python · TypeScript / JavaScript · Node.js · SQL
 **AI / ML:** RAG · LLMs (Claude) · LangChain · NLP (CamemBERT) · PyTorch
@@ -82,14 +111,15 @@ I develop web and mobile tools and reusable business components for inventory, q
 ## GitHub
 
 
-![Joel's GitHub stats](https://github-readme-stats.vercel.app/api?username=Stephen077j&show_icons=true&theme=tokyonight&hide_border=true)
-![Top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Stephen077j&layout=compact&theme=tokyonight&hide_border=true)
+[![GitHub profile](https://img.shields.io/badge/GitHub-View%20Contributions-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Stephen077j?tab=overview)
+
+> Contribution counts and activity are shown by GitHub directly on this profile. Private repositories remain private.
 
 
 ---
 
 
-##  Reach me
+## Reach me
 
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/joel-stephen-b8a6a9251/)
