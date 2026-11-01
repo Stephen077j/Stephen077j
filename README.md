@@ -9,7 +9,7 @@
 **Full-Stack Development · AI Engineering · Business Applications**
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-Visit%20Website-146CFF?style=for-the-badge&logo=vercel&logoColor=white)](https://stephen077-go.vercel.app/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/joel-stephen-b8a6a9251/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/stephen-joel-20b593320/)
 [![Email](https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:joel.stephen2017@gmail.com)
 
 [**About**](#hi-im-joel-stephen-) · [**Solutions**](#atsic--solutions-pour-vos-besoins--solutions-for-your-business) · [**Featured work**](#featured-work) · [**Tech**](#tech) · [**Contact**](#reach-me)
@@ -95,7 +95,7 @@ Ces dépôts permettent de consulter du code réel. Les produits commerciaux res
 | [POS Mobile](https://github.com/Stephen077j/POS-Mobile-Expo-Final) | Mobile point-of-sale source / Code d'une caisse mobile |
 | [Sales workflow](https://github.com/Stephen077j/cycle_vente) | Sales-cycle project / Projet de cycle commercial |
 
-**For recruiters / Pour les recruteurs:** [Public repositories](https://github.com/Stephen077j?tab=repositories&q=&type=public) · [GitHub activity](https://github.com/Stephen077j?tab=overview) · [LinkedIn](https://www.linkedin.com/in/joel-stephen-b8a6a9251/) · [Email](mailto:joel.stephen2017@gmail.com)
+**For recruiters / Pour les recruteurs:** [Public repositories](https://github.com/Stephen077j?tab=repositories&q=&type=public) · [GitHub activity](https://github.com/Stephen077j?tab=overview) · [LinkedIn](https://www.linkedin.com/in/stephen-joel-20b593320/) · [Email](mailto:joel.stephen2017@gmail.com)
 
 *Please check each repository's README and commit history for its current implementation and maturity.*
 
@@ -164,6 +164,6 @@ Ces dépôts permettent de consulter du code réel. Les produits commerciaux res
 ## Reach me
 
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/joel-stephen-b8a6a9251/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/stephen-joel-20b593320/)
 [![Email](https://img.shields.io/badge/Email-EA4335?logo=gmail&logoColor=white)](mailto:joel.stephen2017@gmail.com)
 
