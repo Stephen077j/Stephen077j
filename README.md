@@ -79,6 +79,27 @@ I develop web and mobile tools and reusable business components for inventory, q
 
 ---
 
+## Explore my public work / Découvrir mes projets publics
+
+These repositories provide visible code examples. Commercial products such as ARENAH, EDUVERSE and AVANA are presented separately and may remain private.
+
+Ces dépôts permettent de consulter du code réel. Les produits commerciaux restent séparés et peuvent être privés.
+
+| Project / Projet | What you can explore / À découvrir |
+|:--|:--|
+| [TaskFlow Lite](./projects/taskflow-lite/) | Offline task management with browser storage and JSON export / Gestion locale des tâches |
+| [CalcProSte](https://github.com/Stephen077j/dominomulti) | Expo / React Native mathematics toolkit / Outils mathématiques mobiles |
+| [Fruit ML & MLOps](https://github.com/Stephen077j/ML) | ML experiments, evaluation discussion and monitoring documentation / Expériences ML |
+| [Sentiment analysis](https://github.com/Stephen077j/analyse-setiments) | Customer sentiment analysis project / Projet d'analyse des avis clients |
+| [POS Mobile](https://github.com/Stephen077j/POS-Mobile-Expo-Final) | Mobile point-of-sale source / Code d'une caisse mobile |
+| [Sales workflow](https://github.com/Stephen077j/cycle_vente) | Sales-cycle project / Projet de cycle commercial |
+
+**For recruiters / Pour les recruteurs:** [Public repositories](https://github.com/Stephen077j?tab=repositories&q=&type=public) · [GitHub activity](https://github.com/Stephen077j?tab=overview) · [LinkedIn](https://www.linkedin.com/in/joel-stephen-b8a6a9251/) · [Email](mailto:joel.stephen2017@gmail.com)
+
+*Please check each repository's README and commit history for its current implementation and maturity.*
+
+---
+
 ## Featured work
 
 > Selected work spans commercial applications, university software and AI experiments. Private source code is not publicly downloadable; request a demonstration or technical walkthrough when available.
