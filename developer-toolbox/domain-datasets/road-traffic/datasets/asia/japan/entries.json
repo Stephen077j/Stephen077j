@@ -1,0 +1,22 @@
+{
+  "domain": "road-traffic",
+  "country": "JP",
+  "language": "en",
+  "reviewed": "2026-11-02",
+  "status": "curated starter, not comprehensive or legally certified",
+  "source": {
+    "title": "National Police Agency: Traffic Lights and Road Signs",
+    "url": "https://www.npa.go.jp/english/bureau/traffic/",
+    "redistribution": "independent short educational summaries; check official terms for images/full documents"
+  },
+  "entries": [
+    {
+      "id": "signs_reference",
+      "name": "Traffic lights and road signs",
+      "description": "Consult the national police documentation for sign details",
+      "official_code": null,
+      "source_url": "https://www.npa.go.jp/english/bureau/traffic/",
+      "verification": "reference example; confirm current local rules before production"
+    }
+  ]
+}
