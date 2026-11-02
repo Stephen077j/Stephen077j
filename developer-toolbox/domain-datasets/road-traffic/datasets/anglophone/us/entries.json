@@ -1,0 +1,30 @@
+{
+  "domain": "road-traffic",
+  "country": "US",
+  "language": "en",
+  "reviewed": "2026-11-02",
+  "status": "curated starter, not comprehensive or legally certified",
+  "source": {
+    "title": "MUTCD 11th Edition Revision 1",
+    "url": "https://mutcd.fhwa.dot.gov/kno_11th_Editionr1.htm",
+    "redistribution": "independent short educational summaries; check official terms for images/full documents"
+  },
+  "entries": [
+    {
+      "id": "stop",
+      "name": "STOP",
+      "description": "Stop and yield before proceeding",
+      "official_code": "R1-1",
+      "source_url": "https://mutcd.fhwa.dot.gov/kno_11th_Editionr1.htm",
+      "verification": "reference example; confirm current local rules before production"
+    },
+    {
+      "id": "yield",
+      "name": "YIELD",
+      "description": "Yield to traffic with right of way",
+      "official_code": "R1-2",
+      "source_url": "https://mutcd.fhwa.dot.gov/kno_11th_Editionr1.htm",
+      "verification": "reference example; confirm current local rules before production"
+    }
+  ]
+}
