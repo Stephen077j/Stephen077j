@@ -1,0 +1,32 @@
+name: DevCore business starter tests
+on:
+  pull_request:
+    paths:
+      - 'developer-toolbox/freelance/business-starter/**'
+      - '.github/workflows/devcore-business-starter.yml'
+  push:
+    branches: [main]
+    paths:
+      - 'developer-toolbox/freelance/business-starter/**'
+      - '.github/workflows/devcore-business-starter.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    defaults:
+      run:
+        working-directory: developer-toolbox/freelance/business-starter
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Verify source
+        run: python -m compileall -q core.py example.py tests
+      - name: Run unit tests
+        run: python -m unittest discover -s tests -v
+      - name: Run example
+        run: python example.py
