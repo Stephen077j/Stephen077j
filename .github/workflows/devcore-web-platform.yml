@@ -1,0 +1,29 @@
+name: DevCore web platform checks
+on:
+  pull_request:
+    paths:
+      - 'developer-toolbox/freelance/web-platform/**'
+      - '.github/workflows/devcore-web-platform.yml'
+  push:
+    branches: [main]
+    paths:
+      - 'developer-toolbox/freelance/web-platform/**'
+      - '.github/workflows/devcore-web-platform.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    defaults:
+      run:
+        working-directory: developer-toolbox/freelance/web-platform
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install -r requirements.txt
+      - run: python -m compileall -q .
+      - run: python -m unittest discover -s tests -v
