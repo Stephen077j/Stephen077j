@@ -1,0 +1,127 @@
+{
+  "name": "DevCore Sector-Ready Resource Library",
+  "note": "References are not automatically forked or integrated",
+  "count": 15,
+  "entries": [
+    {
+      "sector": "bible-hymns",
+      "name": "Bible Data",
+      "url": "https://github.com/midvash/bible-data",
+      "use": "Bible versions in JSON/SQLite with OSIS reference",
+      "rights": "Check each translation metadata/license; modern editions excluded",
+      "status": "external reference"
+    },
+    {
+      "sector": "bible-hymns",
+      "name": "Awesome Bible Developer Resources",
+      "url": "https://github.com/biblenerd/awesome-bible-developer-resources",
+      "use": "Bible text standards and datasets",
+      "rights": "Per-source license",
+      "status": "external reference"
+    },
+    {
+      "sector": "bible-hymns",
+      "name": "STEPBible Data",
+      "url": "https://github.com/STEPBible/STEPBible-Data",
+      "use": "Bible linguistic datasets and references",
+      "rights": "CC BY 4.0 for published dataset; verify components",
+      "status": "external reference"
+    },
+    {
+      "sector": "bible-hymns",
+      "name": "ezra-fihirana",
+      "url": "https://github.com/Stephen077j/ezra-fihirana",
+      "use": "Existing account hymn-related code: inspect before adapting",
+      "rights": "Check repository visibility and content rights",
+      "status": "existing account repository; not verified fork"
+    },
+    {
+      "sector": "education",
+      "name": "Kolibri",
+      "url": "https://github.com/learningequality/kolibri",
+      "use": "Offline learning platform and resources",
+      "rights": "MIT code; content licenses per resource",
+      "status": "external reference"
+    },
+    {
+      "sector": "education",
+      "name": "Moodle",
+      "url": "https://github.com/moodle/moodle",
+      "use": "Courses, assessments and school LMS",
+      "rights": "GPL v3 code",
+      "status": "external reference"
+    },
+    {
+      "sector": "education",
+      "name": "university-reference",
+      "url": "https://github.com/Stephen077j/university-reference",
+      "use": "Existing university-related reference",
+      "rights": "Inspect data and dependencies before copying",
+      "status": "existing account repository; not verified fork"
+    },
+    {
+      "sector": "police-public-safety",
+      "name": "PIRMS",
+      "url": "https://github.com/shizzleclover/PIRMS",
+      "use": "Police incident and case management architecture reference",
+      "rights": "Check repository license and privacy/security before reusing",
+      "status": "external reference"
+    },
+    {
+      "sector": "police-public-safety",
+      "name": "PIMS",
+      "url": "https://github.com/shreya-25/PIMS",
+      "use": "Case management and chain-of-custody architecture reference",
+      "rights": "Check repository license and local law; never use real case data",
+      "status": "external reference"
+    },
+    {
+      "sector": "agriculture",
+      "name": "farmOS",
+      "url": "https://github.com/farmOS/farmOS",
+      "use": "Agricultural records and farm management",
+      "rights": "GPL and hosting conditions",
+      "status": "external reference"
+    },
+    {
+      "sector": "health",
+      "name": "OpenMRS",
+      "url": "https://github.com/openmrs/openmrs-core",
+      "use": "Healthcare records platform architecture",
+      "rights": "Medical privacy and local legal requirements",
+      "status": "external reference"
+    },
+    {
+      "sector": "business",
+      "name": "ERPNext",
+      "url": "https://github.com/frappe/erpnext",
+      "use": "ERP, billing, inventory, accounting",
+      "rights": "GPL code and jurisdiction-specific compliance",
+      "status": "external reference"
+    },
+    {
+      "sector": "commerce",
+      "name": "Medusa",
+      "url": "https://github.com/medusajs/medusa",
+      "use": "E-commerce backend patterns",
+      "rights": "Check code license and packages",
+      "status": "external reference"
+    },
+    {
+      "sector": "transport",
+      "name": "OpenTripPlanner",
+      "url": "https://github.com/opentripplanner/OpenTripPlanner",
+      "use": "Public transport and route planning",
+      "rights": "Map and transit feed licenses",
+      "status": "external reference"
+    },
+    {
+      "sector": "hospitality",
+      "name": "QloApps",
+      "url": "https://github.com/Qloapps/QloApps",
+      "use": "Hotel booking and management",
+      "rights": "Check code licensing and deployment constraints",
+      "status": "external reference"
+    }
+  ]
+}
