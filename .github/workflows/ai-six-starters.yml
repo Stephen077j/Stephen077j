@@ -1,0 +1,32 @@
+name: AI six starter checks
+on:
+  pull_request:
+    paths:
+      - 'projects/ai-*-starter/**'
+      - '.github/workflows/ai-six-starters.yml'
+  push:
+    branches: [main]
+    paths:
+      - 'projects/ai-*-starter/**'
+      - '.github/workflows/ai-six-starters.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    strategy:
+      fail-fast: false
+      matrix:
+        project: [rag, local-assistant, vision-ocr, audio, edge, mlops]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Syntax and unit tests
+        working-directory: projects/ai-${{ matrix.project }}-starter
+        run: |
+          python -m compileall -q main.py tests
+          python -m unittest discover -s tests -v
