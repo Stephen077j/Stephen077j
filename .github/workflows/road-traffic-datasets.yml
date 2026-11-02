@@ -1,0 +1,23 @@
+name: Road traffic datasets
+on:
+  pull_request:
+    paths:
+      - 'developer-toolbox/domain-datasets/road-traffic/**'
+      - '.github/workflows/road-traffic-datasets.yml'
+  push:
+    branches: [main]
+    paths:
+      - 'developer-toolbox/domain-datasets/road-traffic/**'
+      - '.github/workflows/road-traffic-datasets.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  validation:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python developer-toolbox/domain-datasets/road-traffic/scripts/validate.py
