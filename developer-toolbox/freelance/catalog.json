@@ -1,0 +1,240 @@
+{
+  "name": "DevCore Freelance Toolbox",
+  "version": "0.1.0",
+  "categories": [
+    {
+      "id": "01-client-discovery",
+      "title": "Discovery, requirements, estimates",
+      "upstream": "https://github.com/joelparkerhenderson/architecture-decision-record",
+      "scope": "Brief template, requirements checklist, acceptance criteria and architecture decisions",
+      "checks": [
+        "license",
+        "security",
+        "tests",
+        "documentation",
+        "business fit"
+      ]
+    },
+    {
+      "id": "02-contracts-quotes",
+      "title": "Contracts, scope and invoicing",
+      "upstream": "https://github.com/invoiceninja/invoiceninja",
+      "scope": "Quotation/invoicing software reference; legal clauses must be reviewed locally",
+      "checks": [
+        "license",
+        "security",
+        "tests",
+        "documentation",
+        "business fit"
+      ]
+    },
+    {
+      "id": "03-ui-design",
+      "title": "Design systems and accessibility",
+      "upstream": "https://github.com/shadcn-ui/ui",
+      "scope": "Component examples and keyboard/mobile accessibility",
+      "checks": [
+        "license",
+        "security",
+        "tests",
+        "documentation",
+        "business fit"
+      ]
+    },
+    {
+      "id": "04-auth-security",
+      "title": "Authentication and authorization",
+      "upstream": "https://github.com/keycloak/keycloak",
+      "scope": "Role access, MFA, session management, safe secret storage",
+      "checks": [
+        "license",
+        "security",
+        "tests",
+        "documentation",
+        "business fit"
+      ]
+    },
+    {
+      "id": "05-payments",
+      "title": "Payments and mobile money",
+      "upstream": "https://github.com/stripe/stripe-node",
+      "scope": "Payments SDK reference; Madagascar operator contracts require official verification",
+      "checks": [
+        "license",
+        "security",
+        "tests",
+        "documentation",
+        "business fit"
+      ]
+    },
+    {
+      "id": "06-database",
+      "title": "Databases and migrations",
+      "upstream": "https://github.com/prisma/prisma",
+      "scope": "Schema, migrations, backups and least-privilege access",
+      "checks": [
+        "license",
+        "security",
+        "tests",
+        "documentation",
+        "business fit"
+      ]
+    },
+    {
+      "id": "07-backend-api",
+      "title": "REST, OpenAPI and API validation",
+      "upstream": "https://github.com/fastapi/fastapi",
+      "scope": "Input validation, API contracts, errors, rate limiting",
+      "checks": [
+        "license",
+        "security",
+        "tests",
+        "documentation",
+        "business fit"
+      ]
+    },
+    {
+      "id": "08-mobile-desktop",
+      "title": "Mobile and desktop delivery",
+      "upstream": "https://github.com/flutter/flutter",
+      "scope": "Offline workflow, Android packaging, device QA",
+      "checks": [
+        "license",
+        "security",
+        "tests",
+        "documentation",
+        "business fit"
+      ]
+    },
+    {
+      "id": "09-business-software",
+      "title": "ERP, POS, CRM and e-commerce",
+      "upstream": "https://github.com/frappe/erpnext",
+      "scope": "Orders, stock, clients, accounting integration patterns",
+      "checks": [
+        "license",
+        "security",
+        "tests",
+        "documentation",
+        "business fit"
+      ]
+    },
+    {
+      "id": "10-ai-automation",
+      "title": "Local AI and document workflows",
+      "upstream": "https://github.com/ollama/ollama",
+      "scope": "Local model API, evaluation, model licenses and privacy",
+      "checks": [
+        "license",
+        "security",
+        "tests",
+        "documentation",
+        "business fit"
+      ]
+    },
+    {
+      "id": "11-maps-messaging",
+      "title": "Mapping and notifications",
+      "upstream": "https://github.com/maplibre/maplibre-gl-js",
+      "scope": "Map rendering, email/SMS adapters, geocoding terms",
+      "checks": [
+        "license",
+        "security",
+        "tests",
+        "documentation",
+        "business fit"
+      ]
+    },
+    {
+      "id": "12-documents-print",
+      "title": "PDF, spreadsheet and label printing",
+      "upstream": "https://github.com/Hopding/pdf-lib",
+      "scope": "Invoices, reports, printer tests, output templates",
+      "checks": [
+        "license",
+        "security",
+        "tests",
+        "documentation",
+        "business fit"
+      ]
+    },
+    {
+      "id": "13-testing",
+      "title": "Unit, contract and E2E tests",
+      "upstream": "https://github.com/microsoft/playwright",
+      "scope": "Browser testing, accessibility, regression and CI",
+      "checks": [
+        "license",
+        "security",
+        "tests",
+        "documentation",
+        "business fit"
+      ]
+    },
+    {
+      "id": "14-hosting",
+      "title": "Containers, hosting and deployment",
+      "upstream": "https://github.com/docker/compose",
+      "scope": "Environment parity, HTTPS, rollback, backups",
+      "checks": [
+        "license",
+        "security",
+        "tests",
+        "documentation",
+        "business fit"
+      ]
+    },
+    {
+      "id": "15-maintenance",
+      "title": "Monitoring and support",
+      "upstream": "https://github.com/grafana/grafana",
+      "scope": "Alerts, logs, SLA, retention, updates",
+      "checks": [
+        "license",
+        "security",
+        "tests",
+        "documentation",
+        "business fit"
+      ]
+    },
+    {
+      "id": "16-sector-data",
+      "title": "Global datasets and sector APIs",
+      "upstream": "https://github.com/public-apis/public-apis",
+      "scope": "Licenses, data provenance, quota and freshness",
+      "checks": [
+        "license",
+        "security",
+        "tests",
+        "documentation",
+        "business fit"
+      ]
+    },
+    {
+      "id": "17-starters",
+      "title": "Small working reference applications",
+      "upstream": "https://github.com/Stephen077j/Python-FastAPI-Inventory",
+      "scope": "Starter code, test structure and README",
+      "checks": [
+        "license",
+        "security",
+        "tests",
+        "documentation",
+        "business fit"
+      ]
+    },
+    {
+      "id": "18-client-handover",
+      "title": "Delivery and client handover",
+      "upstream": "https://github.com/OWASP/CheatSheetSeries",
+      "scope": "Deployment checklist, credentials transfer and security review",
+      "checks": [
+        "license",
+        "security",
+        "tests",
+        "documentation",
+        "business fit"
+      ]
+    }
+  ]
+}

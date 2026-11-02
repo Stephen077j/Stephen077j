@@ -1,0 +1,25 @@
+name: Freelance toolbox checks
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'developer-toolbox/freelance/**'
+      - '.github/workflows/freelance-toolbox.yml'
+  pull_request:
+    paths:
+      - 'developer-toolbox/freelance/**'
+      - '.github/workflows/freelance-toolbox.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m unittest discover -s developer-toolbox/freelance/tests -v
+      - run: python developer-toolbox/freelance/search.py payments
