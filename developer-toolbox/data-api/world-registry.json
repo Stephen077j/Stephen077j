@@ -1,0 +1,528 @@
+{
+  "title": "World Developer Data and API Registry",
+  "created": "2026-11-02",
+  "purpose": "Reusable directory of external sources; not a mirrored data warehouse",
+  "entry_count": 52,
+  "entries": [
+    {
+      "category": "geography",
+      "name": "Geocoded",
+      "documentation": "https://geocoded.me/docs/",
+      "example_endpoint": "https://api.geocoded.me/v2/countries",
+      "usage": "world places, countries, states, cities, airports and timezones",
+      "terms": "none stated; inspect CC BY attribution",
+      "format": "API JSON",
+      "review_status": "reference only; availability and redistribution require provider verification"
+    },
+    {
+      "category": "geography",
+      "name": "Countries.dev",
+      "documentation": "https://countries.dev/",
+      "example_endpoint": "https://countries.dev/",
+      "usage": "countries, currencies, calling codes and places",
+      "terms": "none advertised; check terms",
+      "format": "API JSON",
+      "review_status": "reference only; availability and redistribution require provider verification"
+    },
+    {
+      "category": "geography",
+      "name": "Country Codes",
+      "documentation": "https://github.com/datasets/country-codes",
+      "example_endpoint": null,
+      "usage": "ISO and country metadata",
+      "terms": "source standards rights may differ",
+      "format": "CSV",
+      "review_status": "reference only; availability and redistribution require provider verification"
+    },
+    {
+      "category": "geography",
+      "name": "Countries States Cities",
+      "documentation": "https://github.com/dr5hn/countries-states-cities-database",
+      "example_endpoint": null,
+      "usage": "states cities postcodes timezones",
+      "terms": "ODbL attribution obligations",
+      "format": "JSON CSV SQL",
+      "review_status": "reference only; availability and redistribution require provider verification"
+    },
+    {
+      "category": "geography",
+      "name": "GeoNames",
+      "documentation": "https://www.geonames.org/export/web-services.html",
+      "example_endpoint": null,
+      "usage": "global place names and geographic names",
+      "terms": "account may be needed; attribution",
+      "format": "API export",
+      "review_status": "reference only; availability and redistribution require provider verification"
+    },
+    {
+      "category": "geography",
+      "name": "Natural Earth",
+      "documentation": "https://www.naturalearthdata.com/",
+      "example_endpoint": null,
+      "usage": "map boundaries and geographic features",
+      "terms": "check dataset policies",
+      "format": "geo files",
+      "review_status": "reference only; availability and redistribution require provider verification"
+    },
+    {
+      "category": "geography",
+      "name": "OpenStreetMap",
+      "documentation": "https://wiki.openstreetmap.org/wiki/API",
+      "example_endpoint": null,
+      "usage": "world map features",
+      "terms": "ODbL; usage policies apply",
+      "format": "API",
+      "review_status": "reference only; availability and redistribution require provider verification"
+    },
+    {
+      "category": "geography",
+      "name": "Nominatim",
+      "documentation": "https://nominatim.org/release-docs/latest/api/Overview/",
+      "example_endpoint": null,
+      "usage": "geocoding and reverse geocoding",
+      "terms": "public server rate rules; ODbL",
+      "format": "API JSON",
+      "review_status": "reference only; availability and redistribution require provider verification"
+    },
+    {
+      "category": "geography",
+      "name": "Overpass",
+      "documentation": "https://wiki.openstreetmap.org/wiki/Overpass_API",
+      "example_endpoint": null,
+      "usage": "query OpenStreetMap features",
+      "terms": "public endpoint policies",
+      "format": "API JSON",
+      "review_status": "reference only; availability and redistribution require provider verification"
+    },
+    {
+      "category": "geography",
+      "name": "Madagascar administrative data",
+      "documentation": "https://github.com/open-admin-data/madagascar-administrative-divisions",
+      "example_endpoint": null,
+      "usage": "Malagasy region district commune",
+      "terms": "CC BY 4.0 check",
+      "format": "JSON",
+      "review_status": "reference only; availability and redistribution require provider verification"
+    },
+    {
+      "category": "internationalization",
+      "name": "Unicode CLDR",
+      "documentation": "https://github.com/unicode-org/cldr-json",
+      "example_endpoint": null,
+      "usage": "locale formats languages currencies plural rules",
+      "terms": "Unicode data terms",
+      "format": "JSON",
+      "review_status": "reference only; availability and redistribution require provider verification"
+    },
+    {
+      "category": "internationalization",
+      "name": "IANA Time Zone Database",
+      "documentation": "https://www.iana.org/time-zones",
+      "example_endpoint": null,
+      "usage": "timezone identifiers and DST transitions",
+      "terms": "public data terms",
+      "format": "TZDB",
+      "review_status": "reference only; availability and redistribution require provider verification"
+    },
+    {
+      "category": "internationalization",
+      "name": "Google libphonenumber",
+      "documentation": "https://github.com/google/libphonenumber",
+      "example_endpoint": null,
+      "usage": "international phone parsing and formatting",
+      "terms": "Apache-2.0 code; data review",
+      "format": "library",
+      "review_status": "reference only; availability and redistribution require provider verification"
+    },
+    {
+      "category": "internationalization",
+      "name": "Countries Languages Continents",
+      "documentation": "https://github.com/annexare/Countries",
+      "example_endpoint": null,
+      "usage": "ISO countries languages currencies",
+      "terms": "MIT per repository",
+      "format": "JSON",
+      "review_status": "reference only; availability and redistribution require provider verification"
+    },
+    {
+      "category": "weather-earth",
+      "name": "Open-Meteo",
+      "documentation": "https://open-meteo.com/en/docs",
+      "example_endpoint": "https://api.open-meteo.com/v1/forecast?latitude=-18.91&longitude=47.54&current=temperature_2m",
+      "usage": "weather forecasting and historical weather",
+      "terms": "free noncommercial tier; commercial plan; CC BY data",
+      "format": "API JSON",
+      "review_status": "reference only; availability and redistribution require provider verification"
+    },
+    {
+      "category": "weather-earth",
+      "name": "OpenAQ",
+      "documentation": "https://docs.openaq.org/",
+      "example_endpoint": null,
+      "usage": "air quality",
+      "terms": "API key/version and rate terms",
+      "format": "API",
+      "review_status": "reference only; availability and redistribution require provider verification"
+    },
+    {
+      "category": "weather-earth",
+      "name": "USGS Earthquakes",
+      "documentation": "https://earthquake.usgs.gov/fdsnws/event/1/",
+      "example_endpoint": null,
+      "usage": "global earthquake events",
+      "terms": "official USGS API",
+      "format": "API GeoJSON",
+      "review_status": "reference only; availability and redistribution require provider verification"
+    },
+    {
+      "category": "weather-earth",
+      "name": "NASA Open APIs",
+      "documentation": "https://api.nasa.gov/",
+      "example_endpoint": null,
+      "usage": "space imagery and Earth data",
+      "terms": "API key and deprecated endpoints; check",
+      "format": "API JSON",
+      "review_status": "reference only; availability and redistribution require provider verification"
+    },
+    {
+      "category": "weather-earth",
+      "name": "GBIF",
+      "documentation": "https://www.gbif.org/developer/summary",
+      "example_endpoint": null,
+      "usage": "global biodiversity occurrences",
+      "terms": "dataset-dependent licenses",
+      "format": "API JSON",
+      "review_status": "reference only; availability and redistribution require provider verification"
+    },
+    {
+      "category": "economy",
+      "name": "World Bank API",
+      "documentation": "https://datahelpdesk.worldbank.org/knowledgebase/articles/898581-api-basic-call-structures",
+      "example_endpoint": null,
+      "usage": "GDP population education energy indicators",
+      "terms": "World Bank data terms; attribution",
+      "format": "API JSON",
+      "review_status": "reference only; availability and redistribution require provider verification"
+    },
+    {
+      "category": "economy",
+      "name": "IMF Data",
+      "documentation": "https://data.imf.org/",
+      "example_endpoint": null,
+      "usage": "global macroeconomic data",
+      "terms": "portal and data usage terms",
+      "format": "API",
+      "review_status": "reference only; availability and redistribution require provider verification"
+    },
+    {
+      "category": "economy",
+      "name": "FRED",
+      "documentation": "https://fred.stlouisfed.org/docs/api/fred/",
+      "example_endpoint": null,
+      "usage": "US and global economic series",
+      "terms": "API key; per-series licenses",
+      "format": "API JSON",
+      "review_status": "reference only; availability and redistribution require provider verification"
+    },
+    {
+      "category": "economy",
+      "name": "UN Comtrade",
+      "documentation": "https://comtradeapi.un.org/",
+      "example_endpoint": null,
+      "usage": "global international trade",
+      "terms": "API limits and terms",
+      "format": "API JSON",
+      "review_status": "reference only; availability and redistribution require provider verification"
+    },
+    {
+      "category": "economy",
+      "name": "ECB Data",
+      "documentation": "https://data-api.ecb.europa.eu/",
+      "example_endpoint": null,
+      "usage": "European economic monetary indicators",
+      "terms": "ECB reuse policies",
+      "format": "API CSV JSON",
+      "review_status": "reference only; availability and redistribution require provider verification"
+    },
+    {
+      "category": "economy",
+      "name": "ExchangeRate.host",
+      "documentation": "https://exchangerate.host/documentation",
+      "example_endpoint": null,
+      "usage": "foreign exchange rates",
+      "terms": "check current key and paid tiers",
+      "format": "API JSON",
+      "review_status": "reference only; availability and redistribution require provider verification"
+    },
+    {
+      "category": "health-education",
+      "name": "WHO Global Health Observatory",
+      "documentation": "https://www.who.int/data/gho/info/gho-odata-api",
+      "example_endpoint": null,
+      "usage": "global public health indicators",
+      "terms": "WHO terms and statistical caveats",
+      "format": "API OData",
+      "review_status": "reference only; availability and redistribution require provider verification"
+    },
+    {
+      "category": "health-education",
+      "name": "UNESCO UIS",
+      "documentation": "https://uis.unesco.org/",
+      "example_endpoint": null,
+      "usage": "global education statistics",
+      "terms": "portal data rights",
+      "format": "data",
+      "review_status": "reference only; availability and redistribution require provider verification"
+    },
+    {
+      "category": "health-education",
+      "name": "OpenAlex",
+      "documentation": "https://docs.openalex.org/",
+      "example_endpoint": null,
+      "usage": "academic publications authors institutions",
+      "terms": "API access and rate limits",
+      "format": "API JSON",
+      "review_status": "reference only; availability and redistribution require provider verification"
+    },
+    {
+      "category": "health-education",
+      "name": "Crossref",
+      "documentation": "https://www.crossref.org/documentation/retrieve-metadata/rest-api/",
+      "example_endpoint": null,
+      "usage": "DOI scholarly metadata",
+      "terms": "API etiquette and data licenses",
+      "format": "API JSON",
+      "review_status": "reference only; availability and redistribution require provider verification"
+    },
+    {
+      "category": "health-education",
+      "name": "Open Library",
+      "documentation": "https://openlibrary.org/developers/api",
+      "example_endpoint": null,
+      "usage": "books authors editions",
+      "terms": "rate policies and rights",
+      "format": "API JSON",
+      "review_status": "reference only; availability and redistribution require provider verification"
+    },
+    {
+      "category": "food-media",
+      "name": "Open Food Facts",
+      "documentation": "https://world.openfoodfacts.org/data",
+      "example_endpoint": null,
+      "usage": "food products ingredients barcodes nutrition",
+      "terms": "ODbL; per-image rights",
+      "format": "API JSON",
+      "review_status": "reference only; availability and redistribution require provider verification"
+    },
+    {
+      "category": "food-media",
+      "name": "Wikidata",
+      "documentation": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+      "example_endpoint": null,
+      "usage": "global linked entities and knowledge graph",
+      "terms": "CC0 structured data; verify media rights",
+      "format": "SPARQL JSON",
+      "review_status": "reference only; availability and redistribution require provider verification"
+    },
+    {
+      "category": "food-media",
+      "name": "Wikimedia Commons",
+      "documentation": "https://commons.wikimedia.org/wiki/Commons:API",
+      "example_endpoint": null,
+      "usage": "media files and metadata",
+      "terms": "per-file license differs",
+      "format": "API JSON",
+      "review_status": "reference only; availability and redistribution require provider verification"
+    },
+    {
+      "category": "food-media",
+      "name": "Wikipedia API",
+      "documentation": "https://www.mediawiki.org/wiki/API:Main_page",
+      "example_endpoint": null,
+      "usage": "encyclopedia article metadata and content",
+      "terms": "CC BY-SA and API etiquette",
+      "format": "API JSON",
+      "review_status": "reference only; availability and redistribution require provider verification"
+    },
+    {
+      "category": "food-media",
+      "name": "The Movie Database",
+      "documentation": "https://developer.themoviedb.org/docs/getting-started",
+      "example_endpoint": null,
+      "usage": "movies actors series metadata",
+      "terms": "API key and attribution terms",
+      "format": "API JSON",
+      "review_status": "reference only; availability and redistribution require provider verification"
+    },
+    {
+      "category": "food-media",
+      "name": "MusicBrainz",
+      "documentation": "https://musicbrainz.org/doc/MusicBrainz_API",
+      "example_endpoint": null,
+      "usage": "artists albums releases recordings",
+      "terms": "rate and attribution requirements",
+      "format": "API JSON",
+      "review_status": "reference only; availability and redistribution require provider verification"
+    },
+    {
+      "category": "technology",
+      "name": "GitHub REST API",
+      "documentation": "https://docs.github.com/en/rest",
+      "example_endpoint": null,
+      "usage": "repositories issues pull requests actions",
+      "terms": "auth scope and rate limits",
+      "format": "API JSON",
+      "review_status": "reference only; availability and redistribution require provider verification"
+    },
+    {
+      "category": "technology",
+      "name": "GitLab REST API",
+      "documentation": "https://docs.gitlab.com/api/rest/",
+      "example_endpoint": null,
+      "usage": "git projects and pipelines",
+      "terms": "token and license policies",
+      "format": "API JSON",
+      "review_status": "reference only; availability and redistribution require provider verification"
+    },
+    {
+      "category": "technology",
+      "name": "npm Registry",
+      "documentation": "https://github.com/npm/registry/blob/main/docs/REGISTRY-API.md",
+      "example_endpoint": null,
+      "usage": "JavaScript package metadata",
+      "terms": "registry policies",
+      "format": "API JSON",
+      "review_status": "reference only; availability and redistribution require provider verification"
+    },
+    {
+      "category": "technology",
+      "name": "PyPI JSON API",
+      "documentation": "https://docs.pypi.org/api/json/",
+      "example_endpoint": null,
+      "usage": "Python package metadata",
+      "terms": "usage and vulnerability policies",
+      "format": "API JSON",
+      "review_status": "reference only; availability and redistribution require provider verification"
+    },
+    {
+      "category": "technology",
+      "name": "SchemaStore",
+      "documentation": "https://github.com/SchemaStore/schemastore",
+      "example_endpoint": null,
+      "usage": "JSON schemas configuration validation",
+      "terms": "license per schema",
+      "format": "JSON",
+      "review_status": "reference only; availability and redistribution require provider verification"
+    },
+    {
+      "category": "technology",
+      "name": "OpenAPI Specification",
+      "documentation": "https://github.com/OAI/OpenAPI-Specification",
+      "example_endpoint": null,
+      "usage": "API contract definitions",
+      "terms": "specification license",
+      "format": "schema",
+      "review_status": "reference only; availability and redistribution require provider verification"
+    },
+    {
+      "category": "mock-testing",
+      "name": "JSONPlaceholder",
+      "documentation": "https://jsonplaceholder.typicode.com/",
+      "example_endpoint": null,
+      "usage": "mock REST posts users comments",
+      "terms": "demo only; no durable writes",
+      "format": "API JSON",
+      "review_status": "reference only; availability and redistribution require provider verification"
+    },
+    {
+      "category": "mock-testing",
+      "name": "JSON Server",
+      "documentation": "https://github.com/typicode/json-server",
+      "example_endpoint": null,
+      "usage": "self-hosted fake REST API",
+      "terms": "verify release behavior",
+      "format": "tool",
+      "review_status": "reference only; availability and redistribution require provider verification"
+    },
+    {
+      "category": "mock-testing",
+      "name": "Mock Service Worker",
+      "documentation": "https://github.com/mswjs/msw",
+      "example_endpoint": null,
+      "usage": "browser and Node API mocking",
+      "terms": "license and version",
+      "format": "tool",
+      "review_status": "reference only; availability and redistribution require provider verification"
+    },
+    {
+      "category": "mock-testing",
+      "name": "Faker JS",
+      "documentation": "https://github.com/faker-js/faker",
+      "example_endpoint": null,
+      "usage": "synthetic users addresses products",
+      "terms": "generated data only",
+      "format": "tool",
+      "review_status": "reference only; availability and redistribution require provider verification"
+    },
+    {
+      "category": "mock-testing",
+      "name": "DummyJSON",
+      "documentation": "https://dummyjson.com/docs",
+      "example_endpoint": null,
+      "usage": "fake ecommerce users carts products",
+      "terms": "demo only",
+      "format": "API JSON",
+      "review_status": "reference only; availability and redistribution require provider verification"
+    },
+    {
+      "category": "mock-testing",
+      "name": "REST Countries alternatives",
+      "documentation": "https://github.com/parseapi/lists",
+      "example_endpoint": null,
+      "usage": "country and regional static lists",
+      "terms": "repository data license check",
+      "format": "JSON CSV",
+      "review_status": "reference only; availability and redistribution require provider verification"
+    },
+    {
+      "category": "transport-sports",
+      "name": "OpenSky Network",
+      "documentation": "https://openskynetwork.github.io/opensky-api/rest.html",
+      "example_endpoint": null,
+      "usage": "flight tracking air traffic",
+      "terms": "usage and coverage restrictions",
+      "format": "API JSON",
+      "review_status": "reference only; availability and redistribution require provider verification"
+    },
+    {
+      "category": "transport-sports",
+      "name": "GTFS Schedule",
+      "documentation": "https://gtfs.org/documentation/schedule/reference/",
+      "example_endpoint": null,
+      "usage": "public transit route timetable format",
+      "terms": "provider-specific feed licenses",
+      "format": "CSV",
+      "review_status": "reference only; availability and redistribution require provider verification"
+    },
+    {
+      "category": "transport-sports",
+      "name": "Open Charge Map",
+      "documentation": "https://openchargemap.org/site/develop/api",
+      "example_endpoint": null,
+      "usage": "electric vehicle charging points",
+      "terms": "API key and data rights",
+      "format": "API JSON",
+      "review_status": "reference only; availability and redistribution require provider verification"
+    },
+    {
+      "category": "transport-sports",
+      "name": "Nager.Date",
+      "documentation": "https://github.com/nager/Nager.Date",
+      "example_endpoint": null,
+      "usage": "holidays by country",
+      "terms": "country coverage and data terms",
+      "format": "API JSON",
+      "review_status": "reference only; availability and redistribution require provider verification"
+    }
+  ]
+}
