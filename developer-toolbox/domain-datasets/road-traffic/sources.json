@@ -1,0 +1,36 @@
+{
+  "domain": "road-traffic",
+  "checked": "2026-11-02",
+  "sources": [
+    {
+      "country": "US",
+      "url": "https://mutcd.fhwa.dot.gov/kno_11th_Editionr1.htm",
+      "title": "FHWA MUTCD 11th Ed Revision 1",
+      "scope": "official US signage"
+    },
+    {
+      "country": "GB",
+      "url": "https://www.gov.uk/guidance/the-highway-code/traffic-signs",
+      "title": "UK Highway Code",
+      "scope": "UK signs"
+    },
+    {
+      "country": "FR",
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000025041314",
+      "title": "France signalling order",
+      "scope": "legal signage identifiers"
+    },
+    {
+      "country": "JP",
+      "url": "https://www.npa.go.jp/english/bureau/traffic/",
+      "title": "Japan National Police Agency",
+      "scope": "traffic signs documentation"
+    },
+    {
+      "country": "MG",
+      "url": "https://www.assemblee-nationale.mg/wp-content/uploads/2020/10/Loi-n%C2%B02017-002_Code-de-la-route-%C3%A0-Madagascar.pdf",
+      "title": "Madagascar Loi 2017-002",
+      "scope": "road code legislative reference"
+    }
+  ]
+}
