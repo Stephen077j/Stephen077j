@@ -41,3 +41,11 @@
 - Cahier des charges, prix, livraison, maintenance, consentements et conformité.
 
 Les secteurs police et santé exigent des contrôles plus stricts, notamment la protection des personnes, la traçabilité et l'accès limité aux données.
+
+
+## Débuter sans expérience / Beginner setup
+
+- **[Modèle de README pour chaque futur dépôt par métier](BEGINNER-README-TEMPLATE.md)** : installation, Flutter, Python, React, intégration, APK, dépannage.
+- **[Exemple guidé : application Bible et cantiques](GUIDE-DEBUTANT-BIBLE.md)** : quelles ressources récupérer, les droits et comment débuter une APK.
+
+Les guides indiquent clairement la différence entre ressources référencées, code réellement présent et applications entièrement testées.
