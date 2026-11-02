@@ -1,0 +1,559 @@
+{
+  "title": "Developer API A-Z",
+  "updated": "2026-11-02",
+  "count": 69,
+  "entries": [
+    {
+      "category": "JSON Schema & validation",
+      "name": "JSON Schema",
+      "url": "https://github.com/json-schema-org/json-schema-spec",
+      "role": "specification",
+      "action": "read documentation / install as needed",
+      "verification": "Reference only: check version, repository status, license and applicability before adoption"
+    },
+    {
+      "category": "JSON Schema & validation",
+      "name": "JSON Schema Test Suite",
+      "url": "https://github.com/json-schema-org/JSON-Schema-Test-Suite",
+      "role": "tests",
+      "action": "read documentation / install as needed",
+      "verification": "Reference only: check version, repository status, license and applicability before adoption"
+    },
+    {
+      "category": "JSON Schema & validation",
+      "name": "SchemaStore",
+      "url": "https://github.com/SchemaStore/schemastore",
+      "role": "schemas",
+      "action": "read documentation / install as needed",
+      "verification": "Reference only: check version, repository status, license and applicability before adoption"
+    },
+    {
+      "category": "JSON Schema & validation",
+      "name": "Ajv",
+      "url": "https://github.com/ajv-validator/ajv",
+      "role": "validator",
+      "action": "read documentation / install as needed",
+      "verification": "Reference only: check version, repository status, license and applicability before adoption"
+    },
+    {
+      "category": "JSON Schema & validation",
+      "name": "python-jsonschema",
+      "url": "https://github.com/python-jsonschema/jsonschema",
+      "role": "validator",
+      "action": "read documentation / install as needed",
+      "verification": "Reference only: check version, repository status, license and applicability before adoption"
+    },
+    {
+      "category": "JSON Schema & validation",
+      "name": "Zod",
+      "url": "https://github.com/colinhacks/zod",
+      "role": "validator",
+      "action": "read documentation / install as needed",
+      "verification": "Reference only: check version, repository status, license and applicability before adoption"
+    },
+    {
+      "category": "JSON Schema & validation",
+      "name": "Pydantic",
+      "url": "https://github.com/pydantic/pydantic",
+      "role": "validator",
+      "action": "read documentation / install as needed",
+      "verification": "Reference only: check version, repository status, license and applicability before adoption"
+    },
+    {
+      "category": "JSON Schema & validation",
+      "name": "TypeBox",
+      "url": "https://github.com/sinclairzx81/typebox",
+      "role": "schema-builder",
+      "action": "read documentation / install as needed",
+      "verification": "Reference only: check version, repository status, license and applicability before adoption"
+    },
+    {
+      "category": "REST & contracts",
+      "name": "OpenAPI Specification",
+      "url": "https://github.com/OAI/OpenAPI-Specification",
+      "role": "specification",
+      "action": "read documentation / install as needed",
+      "verification": "Reference only: check version, repository status, license and applicability before adoption"
+    },
+    {
+      "category": "REST & contracts",
+      "name": "Swagger UI",
+      "url": "https://github.com/swagger-api/swagger-ui",
+      "role": "docs",
+      "action": "read documentation / install as needed",
+      "verification": "Reference only: check version, repository status, license and applicability before adoption"
+    },
+    {
+      "category": "REST & contracts",
+      "name": "Swagger Editor",
+      "url": "https://github.com/swagger-api/swagger-editor",
+      "role": "editor",
+      "action": "read documentation / install as needed",
+      "verification": "Reference only: check version, repository status, license and applicability before adoption"
+    },
+    {
+      "category": "REST & contracts",
+      "name": "Redoc",
+      "url": "https://github.com/Redocly/redoc",
+      "role": "docs",
+      "action": "read documentation / install as needed",
+      "verification": "Reference only: check version, repository status, license and applicability before adoption"
+    },
+    {
+      "category": "REST & contracts",
+      "name": "OpenAPI Generator",
+      "url": "https://github.com/OpenAPITools/openapi-generator",
+      "role": "sdk-generator",
+      "action": "read documentation / install as needed",
+      "verification": "Reference only: check version, repository status, license and applicability before adoption"
+    },
+    {
+      "category": "REST & contracts",
+      "name": "Orval",
+      "url": "https://github.com/orval-labs/orval",
+      "role": "sdk-generator",
+      "action": "read documentation / install as needed",
+      "verification": "Reference only: check version, repository status, license and applicability before adoption"
+    },
+    {
+      "category": "REST & contracts",
+      "name": "openapi-typescript",
+      "url": "https://github.com/openapi-ts/openapi-typescript",
+      "role": "sdk-generator",
+      "action": "read documentation / install as needed",
+      "verification": "Reference only: check version, repository status, license and applicability before adoption"
+    },
+    {
+      "category": "REST & contracts",
+      "name": "Spectral",
+      "url": "https://github.com/stoplightio/spectral",
+      "role": "lint",
+      "action": "read documentation / install as needed",
+      "verification": "Reference only: check version, repository status, license and applicability before adoption"
+    },
+    {
+      "category": "REST & contracts",
+      "name": "Optic",
+      "url": "https://github.com/opticdev/optic",
+      "role": "contract-diff",
+      "action": "read documentation / install as needed",
+      "verification": "Reference only: check version, repository status, license and applicability before adoption"
+    },
+    {
+      "category": "REST & contracts",
+      "name": "Prism",
+      "url": "https://github.com/stoplightio/prism",
+      "role": "mock",
+      "action": "try locally",
+      "verification": "Reference only: check version, repository status, license and applicability before adoption"
+    },
+    {
+      "category": "Event APIs",
+      "name": "AsyncAPI Spec",
+      "url": "https://github.com/asyncapi/spec",
+      "role": "specification",
+      "action": "read documentation / install as needed",
+      "verification": "Reference only: check version, repository status, license and applicability before adoption"
+    },
+    {
+      "category": "Event APIs",
+      "name": "AsyncAPI Generator",
+      "url": "https://github.com/asyncapi/generator",
+      "role": "generator",
+      "action": "read documentation / install as needed",
+      "verification": "Reference only: check version, repository status, license and applicability before adoption"
+    },
+    {
+      "category": "Event APIs",
+      "name": "AsyncAPI CLI",
+      "url": "https://github.com/asyncapi/cli",
+      "role": "cli",
+      "action": "read documentation / install as needed",
+      "verification": "Reference only: check version, repository status, license and applicability before adoption"
+    },
+    {
+      "category": "Event APIs",
+      "name": "CloudEvents",
+      "url": "https://github.com/cloudevents/spec",
+      "role": "specification",
+      "action": "read documentation / install as needed",
+      "verification": "Reference only: check version, repository status, license and applicability before adoption"
+    },
+    {
+      "category": "Event APIs",
+      "name": "Protocol Buffers",
+      "url": "https://github.com/protocolbuffers/protobuf",
+      "role": "schema",
+      "action": "read documentation / install as needed",
+      "verification": "Reference only: check version, repository status, license and applicability before adoption"
+    },
+    {
+      "category": "Event APIs",
+      "name": "Buf",
+      "url": "https://github.com/bufbuild/buf",
+      "role": "proto-tooling",
+      "action": "read documentation / install as needed",
+      "verification": "Reference only: check version, repository status, license and applicability before adoption"
+    },
+    {
+      "category": "GraphQL & RPC",
+      "name": "GraphQL Spec",
+      "url": "https://github.com/graphql/graphql-spec",
+      "role": "specification",
+      "action": "read documentation / install as needed",
+      "verification": "Reference only: check version, repository status, license and applicability before adoption"
+    },
+    {
+      "category": "GraphQL & RPC",
+      "name": "GraphQL JS",
+      "url": "https://github.com/graphql/graphql-js",
+      "role": "implementation",
+      "action": "read documentation / install as needed",
+      "verification": "Reference only: check version, repository status, license and applicability before adoption"
+    },
+    {
+      "category": "GraphQL & RPC",
+      "name": "Apollo Server",
+      "url": "https://github.com/apollographql/apollo-server",
+      "role": "server",
+      "action": "read documentation / install as needed",
+      "verification": "Reference only: check version, repository status, license and applicability before adoption"
+    },
+    {
+      "category": "GraphQL & RPC",
+      "name": "GraphQL Yoga",
+      "url": "https://github.com/graphql-hive/graphql-yoga",
+      "role": "server",
+      "action": "read documentation / install as needed",
+      "verification": "Reference only: check version, repository status, license and applicability before adoption"
+    },
+    {
+      "category": "GraphQL & RPC",
+      "name": "grpc",
+      "url": "https://github.com/grpc/grpc",
+      "role": "rpc",
+      "action": "read documentation / install as needed",
+      "verification": "Reference only: check version, repository status, license and applicability before adoption"
+    },
+    {
+      "category": "GraphQL & RPC",
+      "name": "tRPC",
+      "url": "https://github.com/trpc/trpc",
+      "role": "rpc",
+      "action": "read documentation / install as needed",
+      "verification": "Reference only: check version, repository status, license and applicability before adoption"
+    },
+    {
+      "category": "Mocks & fake data",
+      "name": "JSON Server",
+      "url": "https://github.com/typicode/json-server",
+      "role": "mock-server",
+      "action": "try locally",
+      "verification": "Reference only: check version, repository status, license and applicability before adoption"
+    },
+    {
+      "category": "Mocks & fake data",
+      "name": "JSONPlaceholder",
+      "url": "https://github.com/typicode/jsonplaceholder",
+      "role": "fake-api",
+      "action": "read documentation / install as needed",
+      "verification": "Reference only: check version, repository status, license and applicability before adoption"
+    },
+    {
+      "category": "Mocks & fake data",
+      "name": "DummyJSON",
+      "url": "https://github.com/Ovi/DummyJSON",
+      "role": "fake-api",
+      "action": "read documentation / install as needed",
+      "verification": "Reference only: check version, repository status, license and applicability before adoption"
+    },
+    {
+      "category": "Mocks & fake data",
+      "name": "Faker JS",
+      "url": "https://github.com/faker-js/faker",
+      "role": "fixtures",
+      "action": "try locally",
+      "verification": "Reference only: check version, repository status, license and applicability before adoption"
+    },
+    {
+      "category": "Mocks & fake data",
+      "name": "Faker Python",
+      "url": "https://github.com/joke2k/faker",
+      "role": "fixtures",
+      "action": "try locally",
+      "verification": "Reference only: check version, repository status, license and applicability before adoption"
+    },
+    {
+      "category": "Mocks & fake data",
+      "name": "MSW",
+      "url": "https://github.com/mswjs/msw",
+      "role": "mock",
+      "action": "try locally",
+      "verification": "Reference only: check version, repository status, license and applicability before adoption"
+    },
+    {
+      "category": "Mocks & fake data",
+      "name": "WireMock",
+      "url": "https://github.com/wiremock/wiremock",
+      "role": "mock-server",
+      "action": "try locally",
+      "verification": "Reference only: check version, repository status, license and applicability before adoption"
+    },
+    {
+      "category": "Mocks & fake data",
+      "name": "Mockoon",
+      "url": "https://github.com/mockoon/mockoon",
+      "role": "mock-server",
+      "action": "try locally",
+      "verification": "Reference only: check version, repository status, license and applicability before adoption"
+    },
+    {
+      "category": "Mocks & fake data",
+      "name": "MockServer",
+      "url": "https://github.com/mock-server/mockserver",
+      "role": "mock-server",
+      "action": "try locally",
+      "verification": "Reference only: check version, repository status, license and applicability before adoption"
+    },
+    {
+      "category": "Testing & quality",
+      "name": "Schemathesis",
+      "url": "https://github.com/schemathesis/schemathesis",
+      "role": "contract-testing",
+      "action": "read documentation / install as needed",
+      "verification": "Reference only: check version, repository status, license and applicability before adoption"
+    },
+    {
+      "category": "Testing & quality",
+      "name": "Dredd",
+      "url": "https://github.com/apiaryio/dredd",
+      "role": "contract-testing",
+      "action": "read documentation / install as needed",
+      "verification": "Reference only: check version, repository status, license and applicability before adoption"
+    },
+    {
+      "category": "Testing & quality",
+      "name": "Pact",
+      "url": "https://github.com/pact-foundation/pact-js",
+      "role": "contract-testing",
+      "action": "read documentation / install as needed",
+      "verification": "Reference only: check version, repository status, license and applicability before adoption"
+    },
+    {
+      "category": "Testing & quality",
+      "name": "Newman",
+      "url": "https://github.com/postmanlabs/newman",
+      "role": "api-tests",
+      "action": "read documentation / install as needed",
+      "verification": "Reference only: check version, repository status, license and applicability before adoption"
+    },
+    {
+      "category": "Testing & quality",
+      "name": "Bruno",
+      "url": "https://github.com/usebruno/bruno",
+      "role": "api-client",
+      "action": "read documentation / install as needed",
+      "verification": "Reference only: check version, repository status, license and applicability before adoption"
+    },
+    {
+      "category": "Testing & quality",
+      "name": "Hoppscotch",
+      "url": "https://github.com/hoppscotch/hoppscotch",
+      "role": "api-client",
+      "action": "read documentation / install as needed",
+      "verification": "Reference only: check version, repository status, license and applicability before adoption"
+    },
+    {
+      "category": "Testing & quality",
+      "name": "Karate",
+      "url": "https://github.com/karatelabs/karate",
+      "role": "api-tests",
+      "action": "read documentation / install as needed",
+      "verification": "Reference only: check version, repository status, license and applicability before adoption"
+    },
+    {
+      "category": "Testing & quality",
+      "name": "k6",
+      "url": "https://github.com/grafana/k6",
+      "role": "load-testing",
+      "action": "read documentation / install as needed",
+      "verification": "Reference only: check version, repository status, license and applicability before adoption"
+    },
+    {
+      "category": "Testing & quality",
+      "name": "Locust",
+      "url": "https://github.com/locustio/locust",
+      "role": "load-testing",
+      "action": "read documentation / install as needed",
+      "verification": "Reference only: check version, repository status, license and applicability before adoption"
+    },
+    {
+      "category": "Auth & security",
+      "name": "OWASP API Security",
+      "url": "https://github.com/OWASP/API-Security",
+      "role": "security-guidance",
+      "action": "read documentation / install as needed",
+      "verification": "Reference only: check version, repository status, license and applicability before adoption"
+    },
+    {
+      "category": "Auth & security",
+      "name": "Keycloak",
+      "url": "https://github.com/keycloak/keycloak",
+      "role": "identity",
+      "action": "read documentation / install as needed",
+      "verification": "Reference only: check version, repository status, license and applicability before adoption"
+    },
+    {
+      "category": "Auth & security",
+      "name": "Ory Hydra",
+      "url": "https://github.com/ory/hydra",
+      "role": "oauth-server",
+      "action": "read documentation / install as needed",
+      "verification": "Reference only: check version, repository status, license and applicability before adoption"
+    },
+    {
+      "category": "Auth & security",
+      "name": "Ory Kratos",
+      "url": "https://github.com/ory/kratos",
+      "role": "identity",
+      "action": "read documentation / install as needed",
+      "verification": "Reference only: check version, repository status, license and applicability before adoption"
+    },
+    {
+      "category": "Auth & security",
+      "name": "oauthlib",
+      "url": "https://github.com/oauthlib/oauthlib",
+      "role": "oauth-client",
+      "action": "read documentation / install as needed",
+      "verification": "Reference only: check version, repository status, license and applicability before adoption"
+    },
+    {
+      "category": "Auth & security",
+      "name": "Trivy",
+      "url": "https://github.com/aquasecurity/trivy",
+      "role": "scanner",
+      "action": "read documentation / install as needed",
+      "verification": "Reference only: check version, repository status, license and applicability before adoption"
+    },
+    {
+      "category": "Auth & security",
+      "name": "Gitleaks",
+      "url": "https://github.com/gitleaks/gitleaks",
+      "role": "secret-scanner",
+      "action": "read documentation / install as needed",
+      "verification": "Reference only: check version, repository status, license and applicability before adoption"
+    },
+    {
+      "category": "Auth & security",
+      "name": "ZAP",
+      "url": "https://github.com/zaproxy/zaproxy",
+      "role": "security-testing",
+      "action": "read documentation / install as needed",
+      "verification": "Reference only: check version, repository status, license and applicability before adoption"
+    },
+    {
+      "category": "Gateway & operations",
+      "name": "Kong",
+      "url": "https://github.com/Kong/kong",
+      "role": "gateway",
+      "action": "read documentation / install as needed",
+      "verification": "Reference only: check version, repository status, license and applicability before adoption"
+    },
+    {
+      "category": "Gateway & operations",
+      "name": "Apache APISIX",
+      "url": "https://github.com/apache/apisix",
+      "role": "gateway",
+      "action": "read documentation / install as needed",
+      "verification": "Reference only: check version, repository status, license and applicability before adoption"
+    },
+    {
+      "category": "Gateway & operations",
+      "name": "Traefik",
+      "url": "https://github.com/traefik/traefik",
+      "role": "proxy",
+      "action": "read documentation / install as needed",
+      "verification": "Reference only: check version, repository status, license and applicability before adoption"
+    },
+    {
+      "category": "Gateway & operations",
+      "name": "Envoy",
+      "url": "https://github.com/envoyproxy/envoy",
+      "role": "proxy",
+      "action": "read documentation / install as needed",
+      "verification": "Reference only: check version, repository status, license and applicability before adoption"
+    },
+    {
+      "category": "Gateway & operations",
+      "name": "OpenTelemetry",
+      "url": "https://github.com/open-telemetry/opentelemetry-specification",
+      "role": "observability",
+      "action": "read documentation / install as needed",
+      "verification": "Reference only: check version, repository status, license and applicability before adoption"
+    },
+    {
+      "category": "Gateway & operations",
+      "name": "Prometheus",
+      "url": "https://github.com/prometheus/prometheus",
+      "role": "metrics",
+      "action": "read documentation / install as needed",
+      "verification": "Reference only: check version, repository status, license and applicability before adoption"
+    },
+    {
+      "category": "Gateway & operations",
+      "name": "Grafana",
+      "url": "https://github.com/grafana/grafana",
+      "role": "dashboard",
+      "action": "read documentation / install as needed",
+      "verification": "Reference only: check version, repository status, license and applicability before adoption"
+    },
+    {
+      "category": "Samples & architecture",
+      "name": "Google APIs Discovery",
+      "url": "https://github.com/googleapis/discovery-artifact-manager",
+      "role": "api-discovery",
+      "action": "read documentation / install as needed",
+      "verification": "Reference only: check version, repository status, license and applicability before adoption"
+    },
+    {
+      "category": "Samples & architecture",
+      "name": "APIs.guru",
+      "url": "https://github.com/APIs-guru/openapi-directory",
+      "role": "api-spec-directory",
+      "action": "read documentation / install as needed",
+      "verification": "Reference only: check version, repository status, license and applicability before adoption"
+    },
+    {
+      "category": "Samples & architecture",
+      "name": "Public APIs",
+      "url": "https://github.com/public-apis/public-apis",
+      "role": "api-directory",
+      "action": "read documentation / install as needed",
+      "verification": "Reference only: check version, repository status, license and applicability before adoption"
+    },
+    {
+      "category": "Samples & architecture",
+      "name": "GitHub REST docs",
+      "url": "https://github.com/github/rest-api-description",
+      "role": "api-spec",
+      "action": "read documentation / install as needed",
+      "verification": "Reference only: check version, repository status, license and applicability before adoption"
+    },
+    {
+      "category": "Samples & architecture",
+      "name": "Microsoft REST API Guidelines",
+      "url": "https://github.com/microsoft/api-guidelines",
+      "role": "guidelines",
+      "action": "read documentation / install as needed",
+      "verification": "Reference only: check version, repository status, license and applicability before adoption"
+    },
+    {
+      "category": "Samples & architecture",
+      "name": "Zalando REST Guidelines",
+      "url": "https://github.com/zalando/restful-api-guidelines",
+      "role": "guidelines",
+      "action": "read documentation / install as needed",
+      "verification": "Reference only: check version, repository status, license and applicability before adoption"
+    }
+  ]
+}
