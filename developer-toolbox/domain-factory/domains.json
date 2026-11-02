@@ -1,0 +1,1006 @@
+{
+  "title": "DevCore 100 domain repository plan",
+  "count": 100,
+  "domains": [
+    {
+      "id": 1,
+      "name": "Web",
+      "repository": "DevCore-Web",
+      "description": "Resources, APIs, datasets, components and starter projects for web",
+      "tags": [
+        "web"
+      ],
+      "status": "planned; not created"
+    },
+    {
+      "id": 2,
+      "name": "Mobile",
+      "repository": "DevCore-Mobile",
+      "description": "Resources, APIs, datasets, components and starter projects for mobile",
+      "tags": [
+        "mobile"
+      ],
+      "status": "planned; not created"
+    },
+    {
+      "id": 3,
+      "name": "Desktop",
+      "repository": "DevCore-Desktop",
+      "description": "Resources, APIs, datasets, components and starter projects for desktop",
+      "tags": [
+        "desktop"
+      ],
+      "status": "planned; not created"
+    },
+    {
+      "id": 4,
+      "name": "AI",
+      "repository": "DevCore-AI",
+      "description": "Resources, APIs, datasets, components and starter projects for ai",
+      "tags": [
+        "ai"
+      ],
+      "status": "planned; not created"
+    },
+    {
+      "id": 5,
+      "name": "Machine-Learning",
+      "repository": "DevCore-Machine-Learning",
+      "description": "Resources, APIs, datasets, components and starter projects for machine learning",
+      "tags": [
+        "machine-learning"
+      ],
+      "status": "planned; not created"
+    },
+    {
+      "id": 6,
+      "name": "Robotics",
+      "repository": "DevCore-Robotics",
+      "description": "Resources, APIs, datasets, components and starter projects for robotics",
+      "tags": [
+        "robotics"
+      ],
+      "status": "planned; not created"
+    },
+    {
+      "id": 7,
+      "name": "IoT",
+      "repository": "DevCore-IoT",
+      "description": "Resources, APIs, datasets, components and starter projects for iot",
+      "tags": [
+        "iot"
+      ],
+      "status": "planned; not created"
+    },
+    {
+      "id": 8,
+      "name": "Cybersecurity",
+      "repository": "DevCore-Cybersecurity",
+      "description": "Resources, APIs, datasets, components and starter projects for cybersecurity",
+      "tags": [
+        "cybersecurity"
+      ],
+      "status": "planned; not created"
+    },
+    {
+      "id": 9,
+      "name": "Networking",
+      "repository": "DevCore-Networking",
+      "description": "Resources, APIs, datasets, components and starter projects for networking",
+      "tags": [
+        "networking"
+      ],
+      "status": "planned; not created"
+    },
+    {
+      "id": 10,
+      "name": "Cloud-DevOps",
+      "repository": "DevCore-Cloud-DevOps",
+      "description": "Resources, APIs, datasets, components and starter projects for cloud devops",
+      "tags": [
+        "cloud-devops"
+      ],
+      "status": "planned; not created"
+    },
+    {
+      "id": 11,
+      "name": "Databases",
+      "repository": "DevCore-Databases",
+      "description": "Resources, APIs, datasets, components and starter projects for databases",
+      "tags": [
+        "databases"
+      ],
+      "status": "planned; not created"
+    },
+    {
+      "id": 12,
+      "name": "API-Integrations",
+      "repository": "DevCore-API-Integrations",
+      "description": "Resources, APIs, datasets, components and starter projects for api integrations",
+      "tags": [
+        "api-integrations"
+      ],
+      "status": "planned; not created"
+    },
+    {
+      "id": 13,
+      "name": "Blockchain",
+      "repository": "DevCore-Blockchain",
+      "description": "Resources, APIs, datasets, components and starter projects for blockchain",
+      "tags": [
+        "blockchain"
+      ],
+      "status": "planned; not created"
+    },
+    {
+      "id": 14,
+      "name": "Data-Science",
+      "repository": "DevCore-Data-Science",
+      "description": "Resources, APIs, datasets, components and starter projects for data science",
+      "tags": [
+        "data-science"
+      ],
+      "status": "planned; not created"
+    },
+    {
+      "id": 15,
+      "name": "UI-UX",
+      "repository": "DevCore-UI-UX",
+      "description": "Resources, APIs, datasets, components and starter projects for ui ux",
+      "tags": [
+        "ui-ux"
+      ],
+      "status": "planned; not created"
+    },
+    {
+      "id": 16,
+      "name": "Schools",
+      "repository": "DevCore-Schools",
+      "description": "Resources, APIs, datasets, components and starter projects for schools",
+      "tags": [
+        "schools"
+      ],
+      "status": "planned; not created"
+    },
+    {
+      "id": 17,
+      "name": "University",
+      "repository": "DevCore-University",
+      "description": "Resources, APIs, datasets, components and starter projects for university",
+      "tags": [
+        "university"
+      ],
+      "status": "planned; not created"
+    },
+    {
+      "id": 18,
+      "name": "ELearning",
+      "repository": "DevCore-ELearning",
+      "description": "Resources, APIs, datasets, components and starter projects for elearning",
+      "tags": [
+        "elearning"
+      ],
+      "status": "planned; not created"
+    },
+    {
+      "id": 19,
+      "name": "Vocational-Training",
+      "repository": "DevCore-Vocational-Training",
+      "description": "Resources, APIs, datasets, components and starter projects for vocational training",
+      "tags": [
+        "vocational-training"
+      ],
+      "status": "planned; not created"
+    },
+    {
+      "id": 20,
+      "name": "Exams",
+      "repository": "DevCore-Exams",
+      "description": "Resources, APIs, datasets, components and starter projects for exams",
+      "tags": [
+        "exams"
+      ],
+      "status": "planned; not created"
+    },
+    {
+      "id": 21,
+      "name": "Digital-Library",
+      "repository": "DevCore-Digital-Library",
+      "description": "Resources, APIs, datasets, components and starter projects for digital library",
+      "tags": [
+        "digital-library"
+      ],
+      "status": "planned; not created"
+    },
+    {
+      "id": 22,
+      "name": "Research",
+      "repository": "DevCore-Research",
+      "description": "Resources, APIs, datasets, components and starter projects for research",
+      "tags": [
+        "research"
+      ],
+      "status": "planned; not created"
+    },
+    {
+      "id": 23,
+      "name": "Mathematics",
+      "repository": "DevCore-Mathematics",
+      "description": "Resources, APIs, datasets, components and starter projects for mathematics",
+      "tags": [
+        "mathematics"
+      ],
+      "status": "planned; not created"
+    },
+    {
+      "id": 24,
+      "name": "Science",
+      "repository": "DevCore-Science",
+      "description": "Resources, APIs, datasets, components and starter projects for science",
+      "tags": [
+        "science"
+      ],
+      "status": "planned; not created"
+    },
+    {
+      "id": 25,
+      "name": "Language-Learning",
+      "repository": "DevCore-Language-Learning",
+      "description": "Resources, APIs, datasets, components and starter projects for language learning",
+      "tags": [
+        "language-learning"
+      ],
+      "status": "planned; not created"
+    },
+    {
+      "id": 26,
+      "name": "Commerce",
+      "repository": "DevCore-Commerce",
+      "description": "Resources, APIs, datasets, components and starter projects for commerce",
+      "tags": [
+        "commerce"
+      ],
+      "status": "planned; not created"
+    },
+    {
+      "id": 27,
+      "name": "POS",
+      "repository": "DevCore-POS",
+      "description": "Resources, APIs, datasets, components and starter projects for pos",
+      "tags": [
+        "pos"
+      ],
+      "status": "planned; not created"
+    },
+    {
+      "id": 28,
+      "name": "Inventory",
+      "repository": "DevCore-Inventory",
+      "description": "Resources, APIs, datasets, components and starter projects for inventory",
+      "tags": [
+        "inventory"
+      ],
+      "status": "planned; not created"
+    },
+    {
+      "id": 29,
+      "name": "ERP",
+      "repository": "DevCore-ERP",
+      "description": "Resources, APIs, datasets, components and starter projects for erp",
+      "tags": [
+        "erp"
+      ],
+      "status": "planned; not created"
+    },
+    {
+      "id": 30,
+      "name": "CRM",
+      "repository": "DevCore-CRM",
+      "description": "Resources, APIs, datasets, components and starter projects for crm",
+      "tags": [
+        "crm"
+      ],
+      "status": "planned; not created"
+    },
+    {
+      "id": 31,
+      "name": "Accounting",
+      "repository": "DevCore-Accounting",
+      "description": "Resources, APIs, datasets, components and starter projects for accounting",
+      "tags": [
+        "accounting"
+      ],
+      "status": "planned; not created"
+    },
+    {
+      "id": 32,
+      "name": "Fintech",
+      "repository": "DevCore-Fintech",
+      "description": "Resources, APIs, datasets, components and starter projects for fintech",
+      "tags": [
+        "fintech"
+      ],
+      "status": "planned; not created"
+    },
+    {
+      "id": 33,
+      "name": "Payments",
+      "repository": "DevCore-Payments",
+      "description": "Resources, APIs, datasets, components and starter projects for payments",
+      "tags": [
+        "payments"
+      ],
+      "status": "planned; not created"
+    },
+    {
+      "id": 34,
+      "name": "Insurance",
+      "repository": "DevCore-Insurance",
+      "description": "Resources, APIs, datasets, components and starter projects for insurance",
+      "tags": [
+        "insurance"
+      ],
+      "status": "planned; not created"
+    },
+    {
+      "id": 35,
+      "name": "HR",
+      "repository": "DevCore-HR",
+      "description": "Resources, APIs, datasets, components and starter projects for hr",
+      "tags": [
+        "hr"
+      ],
+      "status": "planned; not created"
+    },
+    {
+      "id": 36,
+      "name": "Project-Management",
+      "repository": "DevCore-Project-Management",
+      "description": "Resources, APIs, datasets, components and starter projects for project management",
+      "tags": [
+        "project-management"
+      ],
+      "status": "planned; not created"
+    },
+    {
+      "id": 37,
+      "name": "Marketing",
+      "repository": "DevCore-Marketing",
+      "description": "Resources, APIs, datasets, components and starter projects for marketing",
+      "tags": [
+        "marketing"
+      ],
+      "status": "planned; not created"
+    },
+    {
+      "id": 38,
+      "name": "Startups",
+      "repository": "DevCore-Startups",
+      "description": "Resources, APIs, datasets, components and starter projects for startups",
+      "tags": [
+        "startups"
+      ],
+      "status": "planned; not created"
+    },
+    {
+      "id": 39,
+      "name": "Real-Estate",
+      "repository": "DevCore-Real-Estate",
+      "description": "Resources, APIs, datasets, components and starter projects for real estate",
+      "tags": [
+        "real-estate"
+      ],
+      "status": "planned; not created"
+    },
+    {
+      "id": 40,
+      "name": "Procurement",
+      "repository": "DevCore-Procurement",
+      "description": "Resources, APIs, datasets, components and starter projects for procurement",
+      "tags": [
+        "procurement"
+      ],
+      "status": "planned; not created"
+    },
+    {
+      "id": 41,
+      "name": "Hospitals",
+      "repository": "DevCore-Hospitals",
+      "description": "Resources, APIs, datasets, components and starter projects for hospitals",
+      "tags": [
+        "hospitals"
+      ],
+      "status": "planned; not created"
+    },
+    {
+      "id": 42,
+      "name": "Pharmacy",
+      "repository": "DevCore-Pharmacy",
+      "description": "Resources, APIs, datasets, components and starter projects for pharmacy",
+      "tags": [
+        "pharmacy"
+      ],
+      "status": "planned; not created"
+    },
+    {
+      "id": 43,
+      "name": "Medical-Labs",
+      "repository": "DevCore-Medical-Labs",
+      "description": "Resources, APIs, datasets, components and starter projects for medical labs",
+      "tags": [
+        "medical-labs"
+      ],
+      "status": "planned; not created"
+    },
+    {
+      "id": 44,
+      "name": "Public-Health",
+      "repository": "DevCore-Public-Health",
+      "description": "Resources, APIs, datasets, components and starter projects for public health",
+      "tags": [
+        "public-health"
+      ],
+      "status": "planned; not created"
+    },
+    {
+      "id": 45,
+      "name": "Sports",
+      "repository": "DevCore-Sports",
+      "description": "Resources, APIs, datasets, components and starter projects for sports",
+      "tags": [
+        "sports"
+      ],
+      "status": "planned; not created"
+    },
+    {
+      "id": 46,
+      "name": "Nutrition",
+      "repository": "DevCore-Nutrition",
+      "description": "Resources, APIs, datasets, components and starter projects for nutrition",
+      "tags": [
+        "nutrition"
+      ],
+      "status": "planned; not created"
+    },
+    {
+      "id": 47,
+      "name": "Religion",
+      "repository": "DevCore-Religion",
+      "description": "Resources, APIs, datasets, components and starter projects for religion",
+      "tags": [
+        "religion"
+      ],
+      "status": "planned; not created"
+    },
+    {
+      "id": 48,
+      "name": "Bible-Hymns",
+      "repository": "DevCore-Bible-Hymns",
+      "description": "Resources, APIs, datasets, components and starter projects for bible hymns",
+      "tags": [
+        "bible-hymns"
+      ],
+      "status": "planned; not created"
+    },
+    {
+      "id": 49,
+      "name": "Music-Audio",
+      "repository": "DevCore-Music-Audio",
+      "description": "Resources, APIs, datasets, components and starter projects for music audio",
+      "tags": [
+        "music-audio"
+      ],
+      "status": "planned; not created"
+    },
+    {
+      "id": 50,
+      "name": "Film-Video",
+      "repository": "DevCore-Film-Video",
+      "description": "Resources, APIs, datasets, components and starter projects for film video",
+      "tags": [
+        "film-video"
+      ],
+      "status": "planned; not created"
+    },
+    {
+      "id": 51,
+      "name": "Photography",
+      "repository": "DevCore-Photography",
+      "description": "Resources, APIs, datasets, components and starter projects for photography",
+      "tags": [
+        "photography"
+      ],
+      "status": "planned; not created"
+    },
+    {
+      "id": 52,
+      "name": "Social-Networks",
+      "repository": "DevCore-Social-Networks",
+      "description": "Resources, APIs, datasets, components and starter projects for social networks",
+      "tags": [
+        "social-networks"
+      ],
+      "status": "planned; not created"
+    },
+    {
+      "id": 53,
+      "name": "Media",
+      "repository": "DevCore-Media",
+      "description": "Resources, APIs, datasets, components and starter projects for media",
+      "tags": [
+        "media"
+      ],
+      "status": "planned; not created"
+    },
+    {
+      "id": 54,
+      "name": "NGO",
+      "repository": "DevCore-NGO",
+      "description": "Resources, APIs, datasets, components and starter projects for ngo",
+      "tags": [
+        "ngo"
+      ],
+      "status": "planned; not created"
+    },
+    {
+      "id": 55,
+      "name": "Social-Services",
+      "repository": "DevCore-Social-Services",
+      "description": "Resources, APIs, datasets, components and starter projects for social services",
+      "tags": [
+        "social-services"
+      ],
+      "status": "planned; not created"
+    },
+    {
+      "id": 56,
+      "name": "Agriculture",
+      "repository": "DevCore-Agriculture",
+      "description": "Resources, APIs, datasets, components and starter projects for agriculture",
+      "tags": [
+        "agriculture"
+      ],
+      "status": "planned; not created"
+    },
+    {
+      "id": 57,
+      "name": "Livestock",
+      "repository": "DevCore-Livestock",
+      "description": "Resources, APIs, datasets, components and starter projects for livestock",
+      "tags": [
+        "livestock"
+      ],
+      "status": "planned; not created"
+    },
+    {
+      "id": 58,
+      "name": "Fisheries",
+      "repository": "DevCore-Fisheries",
+      "description": "Resources, APIs, datasets, components and starter projects for fisheries",
+      "tags": [
+        "fisheries"
+      ],
+      "status": "planned; not created"
+    },
+    {
+      "id": 59,
+      "name": "Forestry",
+      "repository": "DevCore-Forestry",
+      "description": "Resources, APIs, datasets, components and starter projects for forestry",
+      "tags": [
+        "forestry"
+      ],
+      "status": "planned; not created"
+    },
+    {
+      "id": 60,
+      "name": "Weather",
+      "repository": "DevCore-Weather",
+      "description": "Resources, APIs, datasets, components and starter projects for weather",
+      "tags": [
+        "weather"
+      ],
+      "status": "planned; not created"
+    },
+    {
+      "id": 61,
+      "name": "Environment",
+      "repository": "DevCore-Environment",
+      "description": "Resources, APIs, datasets, components and starter projects for environment",
+      "tags": [
+        "environment"
+      ],
+      "status": "planned; not created"
+    },
+    {
+      "id": 62,
+      "name": "Renewable-Energy",
+      "repository": "DevCore-Renewable-Energy",
+      "description": "Resources, APIs, datasets, components and starter projects for renewable energy",
+      "tags": [
+        "renewable-energy"
+      ],
+      "status": "planned; not created"
+    },
+    {
+      "id": 63,
+      "name": "Energy",
+      "repository": "DevCore-Energy",
+      "description": "Resources, APIs, datasets, components and starter projects for energy",
+      "tags": [
+        "energy"
+      ],
+      "status": "planned; not created"
+    },
+    {
+      "id": 64,
+      "name": "Water-Waste",
+      "repository": "DevCore-Water-Waste",
+      "description": "Resources, APIs, datasets, components and starter projects for water waste",
+      "tags": [
+        "water-waste"
+      ],
+      "status": "planned; not created"
+    },
+    {
+      "id": 65,
+      "name": "Mining",
+      "repository": "DevCore-Mining",
+      "description": "Resources, APIs, datasets, components and starter projects for mining",
+      "tags": [
+        "mining"
+      ],
+      "status": "planned; not created"
+    },
+    {
+      "id": 66,
+      "name": "Construction",
+      "repository": "DevCore-Construction",
+      "description": "Resources, APIs, datasets, components and starter projects for construction",
+      "tags": [
+        "construction"
+      ],
+      "status": "planned; not created"
+    },
+    {
+      "id": 67,
+      "name": "Smart-Buildings",
+      "repository": "DevCore-Smart-Buildings",
+      "description": "Resources, APIs, datasets, components and starter projects for smart buildings",
+      "tags": [
+        "smart-buildings"
+      ],
+      "status": "planned; not created"
+    },
+    {
+      "id": 68,
+      "name": "Manufacturing",
+      "repository": "DevCore-Manufacturing",
+      "description": "Resources, APIs, datasets, components and starter projects for manufacturing",
+      "tags": [
+        "manufacturing"
+      ],
+      "status": "planned; not created"
+    },
+    {
+      "id": 69,
+      "name": "Industrial-Maintenance",
+      "repository": "DevCore-Industrial-Maintenance",
+      "description": "Resources, APIs, datasets, components and starter projects for industrial maintenance",
+      "tags": [
+        "industrial-maintenance"
+      ],
+      "status": "planned; not created"
+    },
+    {
+      "id": 70,
+      "name": "Food-Industry",
+      "repository": "DevCore-Food-Industry",
+      "description": "Resources, APIs, datasets, components and starter projects for food industry",
+      "tags": [
+        "food-industry"
+      ],
+      "status": "planned; not created"
+    },
+    {
+      "id": 71,
+      "name": "Transport",
+      "repository": "DevCore-Transport",
+      "description": "Resources, APIs, datasets, components and starter projects for transport",
+      "tags": [
+        "transport"
+      ],
+      "status": "planned; not created"
+    },
+    {
+      "id": 72,
+      "name": "Logistics",
+      "repository": "DevCore-Logistics",
+      "description": "Resources, APIs, datasets, components and starter projects for logistics",
+      "tags": [
+        "logistics"
+      ],
+      "status": "planned; not created"
+    },
+    {
+      "id": 73,
+      "name": "Automotive",
+      "repository": "DevCore-Automotive",
+      "description": "Resources, APIs, datasets, components and starter projects for automotive",
+      "tags": [
+        "automotive"
+      ],
+      "status": "planned; not created"
+    },
+    {
+      "id": 74,
+      "name": "Aviation",
+      "repository": "DevCore-Aviation",
+      "description": "Resources, APIs, datasets, components and starter projects for aviation",
+      "tags": [
+        "aviation"
+      ],
+      "status": "planned; not created"
+    },
+    {
+      "id": 75,
+      "name": "Maritime",
+      "repository": "DevCore-Maritime",
+      "description": "Resources, APIs, datasets, components and starter projects for maritime",
+      "tags": [
+        "maritime"
+      ],
+      "status": "planned; not created"
+    },
+    {
+      "id": 76,
+      "name": "GIS-Maps",
+      "repository": "DevCore-GIS-Maps",
+      "description": "Resources, APIs, datasets, components and starter projects for gis maps",
+      "tags": [
+        "gis-maps"
+      ],
+      "status": "planned; not created"
+    },
+    {
+      "id": 77,
+      "name": "Travel",
+      "repository": "DevCore-Travel",
+      "description": "Resources, APIs, datasets, components and starter projects for travel",
+      "tags": [
+        "travel"
+      ],
+      "status": "planned; not created"
+    },
+    {
+      "id": 78,
+      "name": "Hotels",
+      "repository": "DevCore-Hotels",
+      "description": "Resources, APIs, datasets, components and starter projects for hotels",
+      "tags": [
+        "hotels"
+      ],
+      "status": "planned; not created"
+    },
+    {
+      "id": 79,
+      "name": "Restaurants",
+      "repository": "DevCore-Restaurants",
+      "description": "Resources, APIs, datasets, components and starter projects for restaurants",
+      "tags": [
+        "restaurants"
+      ],
+      "status": "planned; not created"
+    },
+    {
+      "id": 80,
+      "name": "Events",
+      "repository": "DevCore-Events",
+      "description": "Resources, APIs, datasets, components and starter projects for events",
+      "tags": [
+        "events"
+      ],
+      "status": "planned; not created"
+    },
+    {
+      "id": 81,
+      "name": "Beauty",
+      "repository": "DevCore-Beauty",
+      "description": "Resources, APIs, datasets, components and starter projects for beauty",
+      "tags": [
+        "beauty"
+      ],
+      "status": "planned; not created"
+    },
+    {
+      "id": 82,
+      "name": "Fashion",
+      "repository": "DevCore-Fashion",
+      "description": "Resources, APIs, datasets, components and starter projects for fashion",
+      "tags": [
+        "fashion"
+      ],
+      "status": "planned; not created"
+    },
+    {
+      "id": 83,
+      "name": "Gaming",
+      "repository": "DevCore-Gaming",
+      "description": "Resources, APIs, datasets, components and starter projects for gaming",
+      "tags": [
+        "gaming"
+      ],
+      "status": "planned; not created"
+    },
+    {
+      "id": 84,
+      "name": "Entertainment",
+      "repository": "DevCore-Entertainment",
+      "description": "Resources, APIs, datasets, components and starter projects for entertainment",
+      "tags": [
+        "entertainment"
+      ],
+      "status": "planned; not created"
+    },
+    {
+      "id": 85,
+      "name": "Home-Services",
+      "repository": "DevCore-Home-Services",
+      "description": "Resources, APIs, datasets, components and starter projects for home services",
+      "tags": [
+        "home-services"
+      ],
+      "status": "planned; not created"
+    },
+    {
+      "id": 86,
+      "name": "Police",
+      "repository": "DevCore-Police",
+      "description": "Resources, APIs, datasets, components and starter projects for police",
+      "tags": [
+        "police"
+      ],
+      "status": "planned; not created"
+    },
+    {
+      "id": 87,
+      "name": "Justice",
+      "repository": "DevCore-Justice",
+      "description": "Resources, APIs, datasets, components and starter projects for justice",
+      "tags": [
+        "justice"
+      ],
+      "status": "planned; not created"
+    },
+    {
+      "id": 88,
+      "name": "Legal",
+      "repository": "DevCore-Legal",
+      "description": "Resources, APIs, datasets, components and starter projects for legal",
+      "tags": [
+        "legal"
+      ],
+      "status": "planned; not created"
+    },
+    {
+      "id": 89,
+      "name": "Government",
+      "repository": "DevCore-Government",
+      "description": "Resources, APIs, datasets, components and starter projects for government",
+      "tags": [
+        "government"
+      ],
+      "status": "planned; not created"
+    },
+    {
+      "id": 90,
+      "name": "Civil-Registry",
+      "repository": "DevCore-Civil-Registry",
+      "description": "Resources, APIs, datasets, components and starter projects for civil registry",
+      "tags": [
+        "civil-registry"
+      ],
+      "status": "planned; not created"
+    },
+    {
+      "id": 91,
+      "name": "Governance",
+      "repository": "DevCore-Governance",
+      "description": "Resources, APIs, datasets, components and starter projects for governance",
+      "tags": [
+        "governance"
+      ],
+      "status": "planned; not created"
+    },
+    {
+      "id": 92,
+      "name": "Emergency",
+      "repository": "DevCore-Emergency",
+      "description": "Resources, APIs, datasets, components and starter projects for emergency",
+      "tags": [
+        "emergency"
+      ],
+      "status": "planned; not created"
+    },
+    {
+      "id": 93,
+      "name": "Surveillance",
+      "repository": "DevCore-Surveillance",
+      "description": "Resources, APIs, datasets, components and starter projects for surveillance",
+      "tags": [
+        "surveillance"
+      ],
+      "status": "planned; not created"
+    },
+    {
+      "id": 94,
+      "name": "Telecom",
+      "repository": "DevCore-Telecom",
+      "description": "Resources, APIs, datasets, components and starter projects for telecom",
+      "tags": [
+        "telecom"
+      ],
+      "status": "planned; not created"
+    },
+    {
+      "id": 95,
+      "name": "Recruitment",
+      "repository": "DevCore-Recruitment",
+      "description": "Resources, APIs, datasets, components and starter projects for recruitment",
+      "tags": [
+        "recruitment"
+      ],
+      "status": "planned; not created"
+    },
+    {
+      "id": 96,
+      "name": "Documents",
+      "repository": "DevCore-Documents",
+      "description": "Resources, APIs, datasets, components and starter projects for documents",
+      "tags": [
+        "documents"
+      ],
+      "status": "planned; not created"
+    },
+    {
+      "id": 97,
+      "name": "Smart-Cities",
+      "repository": "DevCore-Smart-Cities",
+      "description": "Resources, APIs, datasets, components and starter projects for smart cities",
+      "tags": [
+        "smart-cities"
+      ],
+      "status": "planned; not created"
+    },
+    {
+      "id": 98,
+      "name": "Space",
+      "repository": "DevCore-Space",
+      "description": "Resources, APIs, datasets, components and starter projects for space",
+      "tags": [
+        "space"
+      ],
+      "status": "planned; not created"
+    },
+    {
+      "id": 99,
+      "name": "Madagascar",
+      "repository": "DevCore-Madagascar",
+      "description": "Resources, APIs, datasets, components and starter projects for madagascar",
+      "tags": [
+        "madagascar"
+      ],
+      "status": "planned; not created"
+    },
+    {
+      "id": 100,
+      "name": "Utilities",
+      "repository": "DevCore-Utilities",
+      "description": "Resources, APIs, datasets, components and starter projects for utilities",
+      "tags": [
+        "utilities"
+      ],
+      "status": "planned; not created"
+    }
+  ]
+}
