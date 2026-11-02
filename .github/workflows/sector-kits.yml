@@ -1,0 +1,23 @@
+name: Sector resource catalog checks
+on:
+  pull_request:
+    paths:
+      - 'developer-toolbox/sector-kits/**'
+      - '.github/workflows/sector-kits.yml'
+  push:
+    branches: [main]
+    paths:
+      - 'developer-toolbox/sector-kits/**'
+      - '.github/workflows/sector-kits.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m unittest discover -s developer-toolbox/sector-kits/tests -v
