@@ -60,3 +60,136 @@ Use **small, testable examples** rather than copying entire frameworks into a re
 6. Construire ensuite des intégrations pour tes projets existants, seulement si leur valeur est claire.
 
 **Note:** These are external references, not dependencies installed in your repositories. This index is not a claim that any model is available or tested on a particular device.
+
+
+---
+
+# Extended AI engineering reference / Référentiel IA avancé
+
+> These categories expand the initial AI index. They are reference links, not downloaded dependencies or claims of compatibility.
+
+## 1. Data engineering, datasets and labeling / Données
+
+- Dataframes: [pandas](https://github.com/pandas-dev/pandas), [Polars](https://github.com/pola-rs/polars)
+- Dataset loading and versioned datasets: [Hugging Face Datasets](https://github.com/huggingface/datasets), [DVC](https://github.com/iterative/dvc)
+- Quality validation: [Great Expectations](https://github.com/great-expectations/great_expectations)
+- Annotation: [Label Studio](https://github.com/HumanSignal/label-studio), [CVAT](https://github.com/cvat-ai/cvat)
+- Data orchestration: [Apache Airflow](https://github.com/apache/airflow), [Prefect](https://github.com/PrefectHQ/prefect)
+- Dataset basics: consent, licensing, train/validation/test splits, leakage prevention, deduplication, metadata, provenance.
+
+## 2. Classical ML, AutoML and forecasting
+
+- General ML: [scikit-learn](https://github.com/scikit-learn/scikit-learn), [XGBoost](https://github.com/dmlc/xgboost), [LightGBM](https://github.com/microsoft/LightGBM)
+- Automatic modeling: [AutoGluon](https://github.com/autogluon/autogluon), [Optuna](https://github.com/optuna/optuna)
+- Time series: [Darts](https://github.com/unit8co/darts), [sktime](https://github.com/sktime/sktime)
+- Explainability: [SHAP](https://github.com/shap/shap), [LIME](https://github.com/marcotcr/lime)
+- Evaluate out of time and against simple baselines. Accuracy alone is not enough for imbalanced classes.
+
+## 3. Deep learning and training / Entraînement
+
+- Training frameworks: [PyTorch](https://github.com/pytorch/pytorch), [TensorFlow](https://github.com/tensorflow/tensorflow), [JAX](https://github.com/jax-ml/jax)
+- Higher-level training: [Lightning](https://github.com/Lightning-AI/pytorch-lightning), [Hugging Face Accelerate](https://github.com/huggingface/accelerate)
+- Fine-tuning & adapters: [PEFT](https://github.com/huggingface/peft), [TRL](https://github.com/huggingface/trl)
+- Distributed workloads: [Ray](https://github.com/ray-project/ray)
+- Track seeds, data versions, hardware, memory, checkpoints, hyperparameters, reproducibility and licensing of training data.
+
+## 4. Generative image, video, audio / Génération multimodale
+
+- Diffusion workflows: [Diffusers](https://github.com/huggingface/diffusers), [ComfyUI](https://github.com/comfyanonymous/ComfyUI)
+- Image generation interface: [InvokeAI](https://github.com/invoke-ai/InvokeAI)
+- Speech synthesis: [Piper](https://github.com/rhasspy/piper), [Coqui TTS](https://github.com/coqui-ai/TTS)
+- Audio tooling: [librosa](https://github.com/librosa/librosa), [Demucs](https://github.com/facebookresearch/demucs)
+- Evaluate copyright, consent, identity/voice cloning implications, compute cost, watermarking and export rights.
+
+## 5. Advanced vision, OCR and document AI
+
+- Vision library and image processing: [OpenCV](https://github.com/opencv/opencv)
+- Detection/segmentation: [Detectron2](https://github.com/facebookresearch/detectron2), [Segment Anything](https://github.com/facebookresearch/segment-anything)
+- OCR / document extraction: [Tesseract](https://github.com/tesseract-ocr/tesseract), [PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR), [docTR](https://github.com/mindee/doctr)
+- Document ingestion: [Unstructured](https://github.com/Unstructured-IO/unstructured)
+- Test scanning quality, language support, table extraction, layout and human review; OCR output may contain errors.
+
+## 6. Search, databases and recommendations
+
+- Vector search: [Qdrant](https://github.com/qdrant/qdrant), [Milvus](https://github.com/milvus-io/milvus), [FAISS](https://github.com/facebookresearch/faiss)
+- Text + vector search: [OpenSearch](https://github.com/opensearch-project/OpenSearch)
+- Recommendations: [RecBole](https://github.com/RUCAIBox/RecBole)
+- Measure recall@k, latency, deduplication, tenant isolation, access-controlled retrieval and citation accuracy.
+
+## 7. On-device, mobile and edge AI
+
+- Model format and portability: [ONNX](https://github.com/onnx/onnx), [ONNX Runtime](https://github.com/microsoft/onnxruntime)
+- Edge inference: [TensorFlow Lite](https://github.com/tensorflow/tensorflow), [ExecuTorch](https://github.com/pytorch/executorch)
+- Apple devices: [MLX](https://github.com/ml-explore/mlx)
+- In-browser ML: [Transformers.js](https://github.com/huggingface/transformers.js)
+- Validate Android/Windows/macOS targets individually; RAM, quantization, model size, CPU/GPU/NPU, offline functionality and battery use are critical.
+
+## 8. Robotics, reinforcement learning and simulation
+
+- Reinforcement learning: [Stable-Baselines3](https://github.com/DLR-RM/stable-baselines3), [Gymnasium](https://github.com/Farama-Foundation/Gymnasium)
+- Robotics foundations: [ROS 2](https://github.com/ros2/ros2), [MuJoCo](https://github.com/google-deepmind/mujoco)
+- Prioritize simulation and safe physical-system controls before real-world actuator integration.
+
+## 9. AI product backend, UI and agent protocols
+
+- Python backend: [FastAPI](https://github.com/fastapi/fastapi)
+- JS/TS orchestration: [Vercel AI SDK](https://github.com/vercel/ai)
+- MCP protocol and examples: [Model Context Protocol](https://github.com/modelcontextprotocol)
+- Agent workflow: [LangGraph](https://github.com/langchain-ai/langgraph)
+- Build explicit tool allowlists and permission checks. Require user confirmation for destructive or external actions. Treat retrieved documents, website text and tool responses as untrusted instructions.
+
+## 10. Serving, MLOps, LLMOps, reliability
+
+- Model serving: [BentoML](https://github.com/bentoml/BentoML), [vLLM](https://github.com/vllm-project/vllm)
+- Tracking and registry: [MLflow](https://github.com/mlflow/mlflow), [Weights & Biases](https://github.com/wandb/wandb)
+- Monitoring/observability: [Evidently](https://github.com/evidentlyai/evidently), [Langfuse](https://github.com/langfuse/langfuse)
+- Evaluation: [Ragas](https://github.com/explodinggradients/ragas), [DeepEval](https://github.com/confident-ai/deepeval)
+- Production reading list: [Awesome Production Machine Learning](https://github.com/EthicalML/awesome-production-machine-learning), [Made With ML](https://github.com/GokuMohandas/Made-With-ML)
+- Check security patching, model drift, logs with redaction, deployment rollback, reproducibility, telemetry privacy, cost/latency SLOs, and system ownership.
+
+## 11. Responsible AI and security / Sécurité et gouvernance
+
+- Adversarial prompt testing: [promptfoo](https://github.com/promptfoo/promptfoo), [garak](https://github.com/NVIDIA/garak)
+- Privacy-preserving learning references: [Flower](https://github.com/adap/flower)
+- Governance: model cards, dataset cards, usage policy, retention, provenance, red-team evaluation, incident response, review by humans when stakes are high.
+- Never publish raw customer files, API keys, internal credentials or proprietary datasets in public repos.
+
+## 12. Practical recipes / Recettes prêtes à adapter
+
+| Use case | Suggested minimum stack | Acceptance tests |
+|---|---|---|
+| FR/MG/EN text classification | scikit-learn baseline -> Transformers as needed -> FastAPI | Per-language precision/recall, confusion matrix, held-out test |
+| School document question answering | Authorized PDF parser -> embeddings -> vector store -> LLM | Source citations, access control, abstention when unsupported |
+| Offline Android assistant | Small quantized ONNX/TFLite model -> local Flutter/native integration | Real device RAM/latency, no-cloud test, crash-free startup |
+| Invoice document extraction | OCR -> schema validation -> human confirmation | Correct totals, no data leakage, malformed image handling |
+| Image classification | PyTorch -> ONNX Runtime | Robustness on real images, model size, reproducibility |
+| Sales forecast dashboard | pandas -> baseline forecast -> Streamlit | Time-based split, error metrics, downloadable report |
+| Customer-support assistant | Knowledge base -> retrieval -> policy guardrails -> constrained tools | Refusal of unauthorized actions, fallback, traceability |
+| Voice notes search | Consent -> Whisper -> indexing -> search UI | Word-error rate by language, secure audio retention |
+
+## 13. Ready-to-reuse repository checklist / Checklist de dépôt IA
+
+Each independent project should include:
+
+```text
+README.md                 # purpose, install, demo, limits (FR + EN)
+LICENSE                   # select and verify allowed use
+.gitignore                # exclude secrets, weights and local datasets
+.env.example              # placeholders only
+requirements.txt          # or pyproject.toml / package.json
+src/                      # application code
+tests/                    # unit, validation, adversarial regression tests
+docs/ARCHITECTURE.md      # data flow, model, interfaces
+docs/MODEL_CARD.md        # model/dataset licensing, evaluation, constraints
+.github/workflows/ci.yml  # automated checks
+```
+
+No automatic fork or model download is implied by this guide. A project is only **ready** after dependencies, unit tests, security review and a real runtime demo are verified.
+
+## 14. Selection by budget / Choisir selon ses moyens
+
+- **Laptop CPU, no GPU:** scikit-learn, tiny OCR/classification, small quantized local LLM; expect limited performance.
+- **Mobile offline:** ONNX Runtime / Lite, careful quantization, on-device profiling.
+- **GPU available:** PyTorch training, diffusion, larger local models subject to VRAM.
+- **Paid APIs permitted:** check provider pricing, data policies, rate limits and fallback.
+- **Professional deployment:** budgeting for monitoring, storage, authentication and backups remains necessary even if the model is open-source.
