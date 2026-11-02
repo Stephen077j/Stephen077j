@@ -1,0 +1,26 @@
+name: JSON and API catalog checks
+on:
+  pull_request:
+    paths:
+      - 'developer-toolbox/data-api/**'
+      - '.github/workflows/data-api-catalog.yml'
+  push:
+    branches: [main]
+    paths:
+      - 'developer-toolbox/data-api/**'
+      - '.github/workflows/data-api-catalog.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Validate curated catalog
+        working-directory: developer-toolbox/data-api
+        run: python -m unittest discover -s tests -v
