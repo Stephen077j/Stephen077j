@@ -17,3 +17,7 @@ python -m unittest discover -s tests -v
 This **small tested starter** is not a full production application, trained model or verified mobile build. No API charges, hidden credentials, sensitive user data or automatic downloads.
 
 **Français :** exemple Python léger, réutilisable, avec tests. Il faut ajouter les modèles, dépendances, évaluations et contrôles de sécurité selon les besoins réels.
+
+## Improved retrieval
+
+This implementation ranks matching documents using a small TF-IDF-style weighted term-frequency score, caps input sizes, rejects duplicate source IDs, and returns deterministic cited excerpts. It **does not** generate answers or guarantee semantic retrieval. Always obtain and authorize source documents before indexing.
