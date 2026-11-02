@@ -1,0 +1,25 @@
+name: API A-Z catalog checks
+on:
+  pull_request:
+    paths:
+      - 'developer-toolbox/api-a-z/**'
+      - '.github/workflows/api-a-z.yml'
+  push:
+    branches: [main]
+    paths:
+      - 'developer-toolbox/api-a-z/**'
+      - '.github/workflows/api-a-z.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m unittest discover -s developer-toolbox/api-a-z/tests -v
+      - run: python developer-toolbox/api-a-z/search.py schema --json
