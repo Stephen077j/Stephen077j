@@ -193,3 +193,8 @@ No automatic fork or model download is implied by this guide. A project is only 
 - **GPU available:** PyTorch training, diffusion, larger local models subject to VRAM.
 - **Paid APIs permitted:** check provider pricing, data policies, rate limits and fallback.
 - **Professional deployment:** budgeting for monitoring, storage, authentication and backups remains necessary even if the model is open-source.
+
+
+## 15. Practical project delivery / Mise en œuvre pratique
+
+For technology selection, project templates, model/dataset cards, security, deployment and a repository-by-repository roadmap, see **[AI Project Playbook](AI-PROJECT-PLAYBOOK.md)**.
