@@ -1,0 +1,22 @@
+{
+  "domain": "road-traffic",
+  "country": "MG",
+  "language": "fr",
+  "reviewed": "2026-11-02",
+  "status": "curated starter, not comprehensive or legally certified",
+  "source": {
+    "title": "Loi n° 2017-002 portant Code de la Route",
+    "url": "https://www.assemblee-nationale.mg/wp-content/uploads/2020/10/Loi-n%C2%B02017-002_Code-de-la-route-%C3%A0-Madagascar.pdf",
+    "redistribution": "independent short educational summaries; check official terms for images/full documents"
+  },
+  "entries": [
+    {
+      "id": "road_code",
+      "name": "Code de la route",
+      "description": "Loi 2017-002 : source juridique à vérifier et actualiser",
+      "official_code": null,
+      "source_url": "https://www.assemblee-nationale.mg/wp-content/uploads/2020/10/Loi-n%C2%B02017-002_Code-de-la-route-%C3%A0-Madagascar.pdf",
+      "verification": "reference example; confirm current local rules before production"
+    }
+  ]
+}
