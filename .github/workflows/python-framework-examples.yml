@@ -1,0 +1,45 @@
+name: Python five framework examples
+on:
+  pull_request:
+    paths:
+      - 'projects/django-school/**'
+      - 'projects/fastapi-inventory/**'
+      - 'projects/streamlit-dashboard/**'
+      - 'projects/pyside6-desktop/**'
+      - 'projects/pygame-math/**'
+      - '.github/workflows/python-framework-examples.yml'
+  push:
+    branches: [main]
+    paths:
+      - 'projects/django-school/**'
+      - 'projects/fastapi-inventory/**'
+      - 'projects/streamlit-dashboard/**'
+      - 'projects/pyside6-desktop/**'
+      - 'projects/pygame-math/**'
+      - '.github/workflows/python-framework-examples.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  python-examples:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    strategy:
+      fail-fast: false
+      matrix:
+        folder: [django-school, fastapi-inventory, streamlit-dashboard, pyside6-desktop, pygame-math]
+    env:
+      SDL_VIDEODRIVER: dummy
+      QT_QPA_PLATFORM: offscreen
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install project dependencies
+        run: python -m pip install -r projects/${{ matrix.folder }}/requirements.txt pytest
+      - name: Verify syntax and tests
+        working-directory: projects/${{ matrix.folder }}
+        run: |
+          python -m compileall -q main.py tests
+          python -m pytest -q tests/
