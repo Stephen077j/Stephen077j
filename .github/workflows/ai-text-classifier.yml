@@ -1,0 +1,34 @@
+name: AI text classifier tests
+on:
+  pull_request:
+    paths:
+      - 'projects/ai-text-classifier/**'
+      - '.github/workflows/ai-text-classifier.yml'
+  push:
+    branches: [main]
+    paths:
+      - 'projects/ai-text-classifier/**'
+      - '.github/workflows/ai-text-classifier.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    defaults:
+      run:
+        working-directory: projects/ai-text-classifier
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Syntax check
+        run: python -m compileall -q classifier.py train.py predict.py api.py tests/
+      - name: Unit tests
+        run: python -m unittest discover -s tests -v
+      - name: Train and run inference
+        run: |
+          python train.py
+          python predict.py "track my delivery"
