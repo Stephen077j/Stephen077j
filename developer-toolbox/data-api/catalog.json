@@ -1,0 +1,177 @@
+{
+  "title": "Developer JSON Data and API Catalog",
+  "version": "2026-11-02",
+  "description": "Curated external source pointers, not a redistribution of datasets",
+  "sources": [
+    {
+      "category": "geography",
+      "name": "parseapi/lists",
+      "url": "https://github.com/parseapi/lists",
+      "use": "Countries, languages, currencies, timezones and exchange-rate reference JSON",
+      "license_notes": "CC0 stated by publisher; verify exact files",
+      "example_raw_url": "https://raw.githubusercontent.com/parseapi/lists/main/countries/countries.json",
+      "kind": "static-json",
+      "verified": "repository reference; integration not tested"
+    },
+    {
+      "category": "geography",
+      "name": "dr5hn/countries-states-cities-database",
+      "url": "https://github.com/dr5hn/countries-states-cities-database",
+      "use": "Countries, regions, cities and postcodes in multiple data formats",
+      "license_notes": "ODbL attribution and share-alike obligations; review before redistribution",
+      "example_raw_url": null,
+      "kind": "download",
+      "verified": "repository reference; integration not tested"
+    },
+    {
+      "category": "madagascar",
+      "name": "open-admin-data/madagascar-administrative-divisions",
+      "url": "https://github.com/open-admin-data/madagascar-administrative-divisions",
+      "use": "Madagascar regions, districts, communes and coordinates",
+      "license_notes": "CC BY 4.0 attribution; verify boundary changes",
+      "example_raw_url": null,
+      "kind": "static-json",
+      "verified": "repository reference; integration not tested"
+    },
+    {
+      "category": "api-directory",
+      "name": "public-api-lists/public-api-lists",
+      "url": "https://github.com/public-api-lists/public-api-lists",
+      "use": "Hundreds of public APIs across categories; access policies vary",
+      "license_notes": "Directory license differs from each API data terms",
+      "example_raw_url": null,
+      "kind": "directory",
+      "verified": "repository reference; integration not tested"
+    },
+    {
+      "category": "api-directory",
+      "name": "public-apis/public-apis",
+      "url": "https://github.com/public-apis/public-apis",
+      "use": "Directory of public APIs",
+      "license_notes": "Each API has separate usage terms",
+      "example_raw_url": null,
+      "kind": "directory",
+      "verified": "repository reference; integration not tested"
+    },
+    {
+      "category": "data-discovery",
+      "name": "awesomedata/awesome-public-datasets",
+      "url": "https://github.com/awesomedata/awesome-public-datasets",
+      "use": "Thematic open dataset discovery",
+      "license_notes": "Licenses vary for every dataset",
+      "example_raw_url": null,
+      "kind": "directory",
+      "verified": "repository reference; integration not tested"
+    },
+    {
+      "category": "json-validation",
+      "name": "SchemaStore/schemastore",
+      "url": "https://github.com/SchemaStore/schemastore",
+      "use": "JSON schemas for developer configuration files",
+      "license_notes": "Review license for copied schemas",
+      "example_raw_url": null,
+      "kind": "schemas",
+      "verified": "repository reference; integration not tested"
+    },
+    {
+      "category": "json-validation",
+      "name": "json-schema-org/JSON-Schema-Test-Suite",
+      "url": "https://github.com/json-schema-org/JSON-Schema-Test-Suite",
+      "use": "JSON Schema conformance tests",
+      "license_notes": "MIT listed in repository",
+      "example_raw_url": null,
+      "kind": "test-data",
+      "verified": "repository reference; integration not tested"
+    },
+    {
+      "category": "api-mock",
+      "name": "typicode/json-server",
+      "url": "https://github.com/typicode/json-server",
+      "use": "Local mock REST API from JSON file",
+      "license_notes": "Review source license and version",
+      "example_raw_url": null,
+      "kind": "tool",
+      "verified": "repository reference; integration not tested"
+    },
+    {
+      "category": "api-mock",
+      "name": "typicode/jsonplaceholder",
+      "url": "https://github.com/typicode/jsonplaceholder",
+      "use": "Fake REST API for prototyping",
+      "license_notes": "Test-only; no private or production data",
+      "example_raw_url": null,
+      "kind": "test-api",
+      "verified": "repository reference; integration not tested"
+    },
+    {
+      "category": "api-mock",
+      "name": "faker-js/faker",
+      "url": "https://github.com/faker-js/faker",
+      "use": "Synthetic test data generator",
+      "license_notes": "Check package version/license",
+      "example_raw_url": null,
+      "kind": "tool",
+      "verified": "repository reference; integration not tested"
+    },
+    {
+      "category": "api-mock",
+      "name": "mswjs/msw",
+      "url": "https://github.com/mswjs/msw",
+      "use": "Mock Service Worker for REST/GraphQL tests",
+      "license_notes": "Check package version/license",
+      "example_raw_url": null,
+      "kind": "tool",
+      "verified": "repository reference; integration not tested"
+    },
+    {
+      "category": "api-definition",
+      "name": "OAI/OpenAPI-Specification",
+      "url": "https://github.com/OAI/OpenAPI-Specification",
+      "use": "OpenAPI specification for documenting REST APIs",
+      "license_notes": "Specification, not an API endpoint",
+      "example_raw_url": null,
+      "kind": "spec",
+      "verified": "repository reference; integration not tested"
+    },
+    {
+      "category": "api-definition",
+      "name": "Redocly/redoc",
+      "url": "https://github.com/Redocly/redoc",
+      "use": "Generate API reference pages from OpenAPI",
+      "license_notes": "Check runtime and license",
+      "example_raw_url": null,
+      "kind": "tool",
+      "verified": "repository reference; integration not tested"
+    },
+    {
+      "category": "holidays",
+      "name": "nager/Nager.Date",
+      "url": "https://github.com/nager/Nager.Date",
+      "use": "Public holiday API and offline options",
+      "license_notes": "Check country coverage and terms; tentative holidays may change",
+      "example_raw_url": null,
+      "kind": "api",
+      "verified": "repository reference; integration not tested"
+    },
+    {
+      "category": "countries",
+      "name": "nager/Nager.Country",
+      "url": "https://github.com/nager/Nager.Country",
+      "use": "ISO country codes and currency metadata",
+      "license_notes": "Check package/data rights",
+      "example_raw_url": null,
+      "kind": "data",
+      "verified": "repository reference; integration not tested"
+    },
+    {
+      "category": "geography",
+      "name": "VoirDev/sole-world",
+      "url": "https://github.com/VoirDev/sole-world",
+      "use": "Self-hostable countries, currencies, languages and REST/GraphQL reference server",
+      "license_notes": "Check packaged data rights and service configuration",
+      "example_raw_url": null,
+      "kind": "self-hosted",
+      "verified": "repository reference; integration not tested"
+    }
+  ]
+}
