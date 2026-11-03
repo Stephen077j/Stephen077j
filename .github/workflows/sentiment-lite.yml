@@ -1,0 +1,20 @@
+name: Sentiment Lite tests
+on:
+  push:
+    paths:
+      - 'projects/sentiment-lite/**'
+      - '.github/workflows/sentiment-lite.yml'
+  pull_request:
+    paths:
+      - 'projects/sentiment-lite/**'
+      - '.github/workflows/sentiment-lite.yml'
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Unit tests
+        run: cd projects/sentiment-lite && python -m unittest discover -s . -p 'test_*.py' -v
