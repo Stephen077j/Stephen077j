@@ -30,7 +30,7 @@ def process_csv(source: Path, destination: Path, column: str = 'comment') -> int
             raise ValueError(f'Missing CSV column: {column}')
         if 'sentiment' in reader.fieldnames or 'score' in reader.fieldnames:
             raise ValueError('Input already contains sentiment or score column')
-        with destination.open('w', encoding='utf-8', newline='') as out:
+        with destination.open('x', encoding='utf-8', newline='') as out:
             writer = csv.DictWriter(out, fieldnames=[*reader.fieldnames, 'sentiment', 'score'])
             writer.writeheader()
             count = 0
