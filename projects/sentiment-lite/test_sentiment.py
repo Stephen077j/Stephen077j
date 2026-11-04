@@ -39,5 +39,33 @@ class SentimentTests(unittest.TestCase):
                 process_csv(src, dst)
 
 
+    def test_existing_output_is_never_overwritten(self):
+        with tempfile.TemporaryDirectory() as folder:
+            src, dst = Path(folder) / 'in.csv', Path(folder) / 'out.csv'
+            src.write_text('id,comment\\n1,good\\n', encoding='utf-8')
+            dst.write_text('IMPORTANT ORIGINAL CONTENT\\n', encoding='utf-8')
+            with self.assertRaises(FileExistsError):
+                process_csv(src, dst)
+            self.assertEqual(dst.read_text(encoding='utf-8'), 'IMPORTANT ORIGINAL CONTENT\\n')
+
+    def test_no_output_created_for_missing_column(self):
+        with tempfile.TemporaryDirectory() as folder:
+            src, dst = Path(folder) / 'in.csv', Path(folder) / 'out.csv'
+            src.write_text('other\\nhello\\n', encoding='utf-8')
+            with self.assertRaises(ValueError):
+                process_csv(src, dst)
+            self.assertFalse(dst.exists())
+
+    def test_bom_input_preserves_original_columns(self):
+        with tempfile.TemporaryDirectory() as folder:
+            src, dst = Path(folder) / 'in.csv', Path(folder) / 'out.csv'
+            src.write_text('id,comment,source\\n1,tsara,MG\\n', encoding='utf-8-sig')
+            self.assertEqual(process_csv(src, dst), 1)
+            with dst.open(encoding='utf-8', newline='') as inp:
+                rows = list(csv.DictReader(inp))
+            self.assertEqual(rows[0]['id'], '1')
+            self.assertEqual(rows[0]['source'], 'MG')
+            self.assertEqual(rows[0]['sentiment'], 'positive')
+
 if __name__ == '__main__':
     unittest.main()
