@@ -1,0 +1,22 @@
+name: CSV Schema Guard tests
+on:
+  push:
+    paths:
+      - 'projects/csv-schema-guard/**'
+      - '.github/workflows/csv-schema-guard.yml'
+  pull_request:
+    paths:
+      - 'projects/csv-schema-guard/**'
+      - '.github/workflows/csv-schema-guard.yml'
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: cd projects/csv-schema-guard && python -m unittest discover -s . -p 'test_*.py' -v
+      - run: python -m py_compile projects/csv-schema-guard/guard.py
