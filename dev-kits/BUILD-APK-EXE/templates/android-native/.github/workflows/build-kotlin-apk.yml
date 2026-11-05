@@ -1,0 +1,32 @@
+name: "BUILD | Android APK (Kotlin / Java Gradle)"
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  apk-debug:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "17"
+      - name: Verifier Gradle
+        shell: bash
+        run: |
+          test -f gradlew || { echo "gradlew absent : placer le workflow dans un projet Android natif Gradle"; exit 1; }
+          chmod +x gradlew
+      - name: Compiler APK de test
+        run: ./gradlew :app:assembleDebug --no-daemon
+      - name: Publier APK de test
+        uses: actions/upload-artifact@v4
+        with:
+          name: Android-Natif-APK-debug-TEST
+          path: app/build/outputs/apk/debug/*.apk
+          if-no-files-found: error
+          retention-days: 30
