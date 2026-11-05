@@ -1,0 +1,25 @@
+name: File Integrity Lite tests
+on:
+  push:
+    paths:
+      - 'projects/file-integrity-lite/**'
+      - '.github/workflows/file-integrity-lite.yml'
+  pull_request:
+    paths:
+      - 'projects/file-integrity-lite/**'
+      - '.github/workflows/file-integrity-lite.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Run 11 unit tests
+        run: cd projects/file-integrity-lite && python -m unittest discover -s . -p 'test_*.py' -v
+      - name: Check Python syntax
+        run: python -m py_compile projects/file-integrity-lite/integrity.py
