@@ -1,0 +1,61 @@
+name: Atlas Internet - collecte et qualification GitHub
+
+on:
+  push:
+    branches:
+      - docs/internet-atlas-200-20261105
+    paths:
+      - .github/workflows/atlas-curation.yml
+      - projects/internet-atlas-200/scripts/curate_dataset.py
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  curate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    concurrency:
+      group: atlas-internet-curation
+      cancel-in-progress: false
+    steps:
+      - name: Recuperer le depot
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Installer Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Collecte des metadonnees et verification de fichiers LICENSE
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python3 projects/internet-atlas-200/scripts/curate_dataset.py --max-queries 40 --license-checks 250 --search-delay 2.3
+      - name: Sauvegarder les resultats comme artefact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: atlas-internet-curation
+          path: |
+            projects/internet-atlas-200/data/catalog_all_enriched.csv
+            projects/internet-atlas-200/data/metadata_prequalified.csv
+            projects/internet-atlas-200/data/license_file_checked.csv
+            projects/internet-atlas-200/data/needs_review.csv
+            projects/internet-atlas-200/data/COLLECTION_REPORT.md
+          if-no-files-found: warn
+      - name: Enregistrer les CSV enrichis sur la branche
+        if: success()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add projects/internet-atlas-200/data/catalog_all_enriched.csv
+          git add projects/internet-atlas-200/data/metadata_prequalified.csv
+          git add projects/internet-atlas-200/data/license_file_checked.csv
+          git add projects/internet-atlas-200/data/needs_review.csv
+          git add projects/internet-atlas-200/data/COLLECTION_REPORT.md
+          if ! git diff --cached --quiet; then
+            git commit -m "data: enrich atlas discovery metadata and verify license files"
+            git push
+          fi
