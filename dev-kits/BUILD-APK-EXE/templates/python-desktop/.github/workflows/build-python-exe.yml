@@ -1,0 +1,43 @@
+name: "BUILD | Windows EXE (Python + PyInstaller)"
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  windows-exe:
+    runs-on: windows-latest
+    steps:
+      - name: Recuperer le code
+        uses: actions/checkout@v4
+      - name: Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Installer les dependances
+        shell: pwsh
+        run: |
+          python -m pip install --upgrade pip
+          if (Test-Path "requirements.txt") {
+            python -m pip install -r requirements.txt
+          }
+          python -m pip install pyinstaller
+      - name: Verifier entree Python
+        shell: pwsh
+        run: |
+          if (-not (Test-Path "main.py")) {
+            throw "Le fichier main.py n'existe pas. Adapter la commande PyInstaller au vrai fichier d'entree."
+          }
+      - name: Construire EXE
+        shell: pwsh
+        run: python -m PyInstaller --clean --noconfirm --onefile --name "MonApplication" main.py
+      - name: Verifier et publier EXE
+        uses: actions/upload-artifact@v4
+        with:
+          name: Windows-Python-EXE
+          path: dist/*.exe
+          if-no-files-found: error
+          retention-days: 30
