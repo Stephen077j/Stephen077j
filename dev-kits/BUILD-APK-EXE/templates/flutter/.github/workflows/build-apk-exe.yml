@@ -1,0 +1,110 @@
+name: "BUILD | Android APK + Windows EXE (Flutter)"
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: flutter-build-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  verify:
+    name: "01 - Verification du projet"
+    runs-on: ubuntu-latest
+    steps:
+      - name: Recuperer les sources
+        uses: actions/checkout@v4
+      - name: Installer Flutter stable
+        uses: subosito/flutter-action@v2
+        with:
+          channel: stable
+          cache: true
+      - name: Verifier la structure Flutter
+        shell: bash
+        run: |
+          test -f pubspec.yaml || { echo "pubspec.yaml absent : place le workflow a la racine Flutter"; exit 1; }
+          test -f lib/main.dart || { echo "lib/main.dart absent"; exit 1; }
+          test -d android || { echo "Dossier android/ absent. Lance: flutter create --platforms=android ."; exit 1; }
+          test -d windows || { echo "Dossier windows/ absent. Lance: flutter create --platforms=windows ."; exit 1; }
+      - name: Installer les dependances
+        run: flutter pub get
+      - name: Analyse du code
+        run: flutter analyze
+      - name: Tests si presents
+        shell: bash
+        run: |
+          if [ -d test ] && find test -type f -name '*_test.dart' | grep -q .; then
+            flutter test
+          else
+            echo "Aucun test Dart present; etape ignoree."
+          fi
+
+  android:
+    name: "02 - Compiler Android APK"
+    needs: verify
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Java 17 (Android)
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "17"
+      - name: Flutter stable
+        uses: subosito/flutter-action@v2
+        with:
+          channel: stable
+          cache: true
+      - name: Dependances
+        run: flutter pub get
+      - name: Generer APK
+        run: flutter build apk --release
+      - name: Publier APK telechargeable
+        uses: actions/upload-artifact@v4
+        with:
+          name: Android-APK-release
+          path: build/app/outputs/flutter-apk/*.apk
+          if-no-files-found: error
+          retention-days: 30
+
+  windows:
+    name: "03 - Compiler Windows EXE"
+    needs: verify
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Flutter stable
+        uses: subosito/flutter-action@v2
+        with:
+          channel: stable
+          cache: true
+      - name: Autoriser Windows
+        shell: pwsh
+        run: flutter config --enable-windows-desktop
+      - name: Dependances
+        shell: pwsh
+        run: flutter pub get
+      - name: Generer Windows
+        shell: pwsh
+        run: flutter build windows --release
+      - name: Preparer le dossier EXE complet
+        shell: pwsh
+        run: |
+          $exe = Get-ChildItem -Path "build/windows" -Recurse -File -Filter "*.exe" |
+            Where-Object { $_.DirectoryName -match '[\\/]runner[\\/]Release$' } |
+            Select-Object -First 1
+          if (-not $exe) { throw "Impossible de trouver le EXE Flutter dans build/windows/**/runner/Release" }
+          New-Item -ItemType Directory -Force -Path "dist/windows" | Out-Null
+          Copy-Item -Path (Join-Path $exe.DirectoryName '*') -Destination "dist/windows" -Recurse -Force
+          Write-Host "EXE trouve : $($exe.Name) ; DLL et dossier data conserves."
+      - name: Publier application Windows complete
+        uses: actions/upload-artifact@v4
+        with:
+          name: Windows-EXE-et-dependances
+          path: dist/windows/
+          if-no-files-found: error
+          retention-days: 30
