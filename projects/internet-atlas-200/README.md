@@ -4,6 +4,15 @@
 
 > **Accès / Access:** G = gratuit / free; L = logiciel libre / open source (hosting may cost money); F = freemium; P = commercial / paid. **Ces étiquettes sont indicatives, non auditées individuellement** : vérifier les tarifs, les conditions d'accès et les licences avant réutilisation commerciale. / Labels are indicative and not individually audited; verify pricing, terms and licenses before commercial reuse.
 
+## 💎 Fouille avancée / Treasure mining
+
+- [Treasure Mining 2026 — index et méthodes de découverte](TREASURE_MINING_2026.md)
+- [Script Python de découverte GitHub (API officielle)](scripts/discover_github.py)
+- [Moteurs techniques réutilisables](HIDDEN_ENGINEERING_TREASURES.md)
+- [Ressources open source asiatiques](ASIA_OPEN_SOURCE.md)
+
+**Statut :** le script est publié, mais n'a pas été exécuté ici pour produire un inventaire massif. Les résultats futurs seront des candidats non vérifiés.
+
 ## ⚡ En 1 seconde : je cherche quoi ? / Find it fast
 
 | Mon besoin / I need | Ouvrir directement / Open | Résultat concret / Outcome |
