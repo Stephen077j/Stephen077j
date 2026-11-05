@@ -4,6 +4,27 @@
 
 > **Accès / Access:** G = gratuit / free; L = logiciel libre / open source (hosting may cost money); F = freemium; P = commercial / paid. **Ces étiquettes sont indicatives, non auditées individuellement** : vérifier les tarifs, les conditions d'accès et les licences avant réutilisation commerciale. / Labels are indicative and not individually audited; verify pricing, terms and licenses before commercial reuse.
 
+## ⚡ En 1 seconde : je cherche quoi ? / Find it fast
+
+| Mon besoin / I need | Ouvrir directement / Open | Résultat concret / Outcome |
+|---|---|---|
+| 🧾 **Factures, devis, caisse POS** | [Invoice Ninja](https://invoiceninja.com/) · [Dolibarr](https://www.dolibarr.org/) · [ERPNext](https://erpnext.com/) | Étudier factures, ventes, stocks et encaissements |
+| 🏨 **Hôtel, restaurant, réservation** | [ERPNext](https://erpnext.com/) · [Odoo](https://www.odoo.com/) · [TOAST UI Calendar](https://github.com/nhn/tui.calendar) | Modèles métier, planning et calendrier de réservation |
+| 🎓 **École, université, examens** | [Moodle](https://moodle.org/) · [Kolibri](https://learningequality.org/kolibri/) · [OpenStax](https://openstax.org/) | Cours, évaluation, ressources hors ligne |
+| 📱 **APK Android / logiciel Windows** | [Flutter](https://flutter.dev/) · [Tauri](https://tauri.app/) · [F-Droid](https://f-droid.org/) | Construire et étudier des applications |
+| 🗺️ **Carte, GPS, itinéraires** | [OpenStreetMap](https://www.openstreetmap.org/) · [MapLibre](https://maplibre.org/) · [OpenRouteService](https://openrouteservice.org/) | Carte interactive et itinéraires |
+| 🧠 **IA locale, texte, voix, images** | [Ollama](https://ollama.com/) · [ONNX Runtime](https://onnxruntime.ai/) · [ModelScope](https://modelscope.cn/) | Exécuter et découvrir des modèles IA |
+| 📄 **Lecture de documents / OCR** | [PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR) · [PyPI](https://pypi.org/) | Extraire du texte et trouver des composants |
+| 🎨 **Design premium React / Vue** | [Ant Design](https://github.com/ant-design/ant-design) · [Element Plus](https://github.com/element-plus/element-plus) · [shadcn/ui](https://ui.shadcn.com/) | Interfaces admin et composants UI |
+| 🎥 **Vidéo, audio, conversion** | [FFmpeg](https://ffmpeg.org/) · [OBS](https://obsproject.com/) · [Audacity](https://www.audacityteam.org/) | Conversion, capture et édition multimédia |
+| 🔌 **API, intégration, automatisation** | [Public APIs](https://github.com/public-apis/public-apis) · [n8n](https://n8n.io/) · [Bruno](https://www.usebruno.com/) | Trouver, tester et relier des services |
+| 📊 **Datasets / recherche** | [RAG Repo](https://rag-repo.org/) · [Hugging Face](https://huggingface.co/) · [Zenodo](https://zenodo.org/) | Repérer des données et corpus |
+| 🌾 **Agriculture, météo, sols** | [FAOSTAT](https://www.fao.org/faostat/) · [SoilGrids](https://soilgrids.org/) · [NASA POWER](https://power.larc.nasa.gov/) | Statistiques, sols et météo agricole |
+| 🏥 **Santé, biologie, DHIS2** | [DHIS2](https://dhis2.org/) · [WHO Data](https://data.who.int/) · [NCBI](https://www.ncbi.nlm.nih.gov/) | Systèmes sanitaires et données scientifiques |
+| 🌏 **Trésors open source asiatiques** | [HelloGitHub](https://hellogithub.com/) · [ModelScope](https://modelscope.cn/) · [Datawhale](https://github.com/datawhalechina) | Découvrir projets, modèles et tutoriels chinois |
+
+**Mode d'emploi / Quick use:** 1. Trouve ton besoin dans la colonne gauche. 2. Ouvre le lien. 3. Vérifie licence, maintenance et compatibilité avant intégration. / Match your need, open the link, then check license and compatibility.
+
 ## Utilisation / How to use
 
 - Parcourir les domaines ci-dessous ou utiliser la recherche GitHub dans ce fichier. / Browse topics or use GitHub's file search.
