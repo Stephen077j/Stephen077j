@@ -334,6 +334,17 @@
 | 199 | [Unicode CLDR](https://cldr.unicode.org/) | Localisation | G |
 | 200 | [Tatoeba](https://tatoeba.org/) | Phrases multilingues | G |
 
+## Ressource complémentaire / Featured directory: RAG Repo
+
+**[RAG Repo](https://rag-repo.org/)** — Annuaire spécialisé de sources de données pour la recherche, l'IA et les systèmes RAG (Retrieval-Augmented Generation). / Directory of data sources for research, AI and retrieval-augmented generation.
+
+- **Explorer / Explore:** [rag-repo.org](https://rag-repo.org/)
+- **Utilisations / Uses:** identifier des jeux de données et des sources documentaires en sciences, langues, droit et intelligence artificielle; construire des corpus de recherche ou des bases de connaissances après vérification des licences.
+- **Accès / Access:** consultation de l'annuaire; les conditions, tarifs et licences des sources répertoriées varient.
+- **Attention / Note:** le nombre de sources et de catégories évolue; les chiffres annoncés (307 sources, 28 catégories) ne sont pas vérifiés en direct dans cette mise à jour. L'annuaire ne confère pas de droit automatique de redistribution de ses données ni des sources externes.
+
+Cette ressource est un **bonus hors des 200 entrées** afin de préserver le catalogue initial de 20 × 10. / Featured bonus outside the original 200 entries.
+
 ## Contribuer / Contributing
 
 Proposer une correction avec le lien officiel, une description vérifiable, la date de vérification et les conditions d'utilisation. / Propose corrections with official links, verifiable descriptions, verification dates and licensing/terms details.
