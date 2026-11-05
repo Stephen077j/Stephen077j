@@ -4,6 +4,21 @@
 
 > **Accès / Access:** G = gratuit / free; L = logiciel libre / open source (hosting may cost money); F = freemium; P = commercial / paid. **Ces étiquettes sont indicatives, non auditées individuellement** : vérifier les tarifs, les conditions d'accès et les licences avant réutilisation commerciale. / Labels are indicative and not individually audited; verify pricing, terms and licenses before commercial reuse.
 
+## 🏆 Atlas 2026 — 2 935 dépôts découverts (collecte réelle)
+
+**Résultat daté du 5 novembre 2026 :** 2 991 références issues de 33 recherches GitHub, puis déduplication globale : **2 935 dépôts distincts**. **Attention :** ce nombre désigne des *candidats*, pas 2 935 applications auditées ou autorisées à être revendues.
+
+| Voir immédiatement | Ouvrir | Ce que contient le fichier |
+|---|---|---|
+| 🔎 **Tous les candidats uniques** | [unique_index.csv](data/unique_index.csv) | 2 935 dépôts, leur lien, catégorie et objectif de recherche ; licences **non vérifiées** |
+| ✅ **Contrôle manuel n°1** | [metadata_verified_01.csv](data/metadata_verified_01.csv) | 14 dépôts avec descriptions GitHub, étoiles, licences détectées et fichiers consultés |
+| ✅ **Contrôle manuel n°2** | [metadata_verified_02.csv](data/metadata_verified_02.csv) | 14 autres dépôts contrôlés de la même manière |
+| 🤖 **Moteur d'enrichissement** | [curate_dataset.py](scripts/curate_dataset.py) | Recherche métadonnées des 2 935 candidats, préqualification et contrôle d'un sous-ensemble de fichiers LICENSE |
+| 📊 **Rapport généré par l'outil** | [data/COLLECTION_REPORT.md](data/COLLECTION_REPORT.md) | Résultat disponible **après exécution réussie** du pipeline, ne pas le présumer créé |
+| 📘 **Méthode de fouille** | [TREASURE_MINING_2026.md](TREASURE_MINING_2026.md) | Annuaires, langues asiatiques, sources et précautions |
+
+**Comprendre la preuve de licence :** `DISCOVERED_ONLY` = URL découverte ; `GITHUB_LICENSE_METADATA_ONLY` = licence détectée automatiquement (sans contrôle du fichier) ; `LICENSE_FILE_CHECKED_GITHUB_API` = présence et identification du fichier par l'API. Même ce dernier statut n'est **pas** un audit juridique des dépendances.
+
 ## 💎 Fouille avancée / Treasure mining
 
 - [Treasure Mining 2026 — index et méthodes de découverte](TREASURE_MINING_2026.md)
